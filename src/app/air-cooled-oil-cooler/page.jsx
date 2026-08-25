@@ -80,44 +80,74 @@ const modelSections = [
   {
     title: "HPP-L-608",
     description:
-      "Our HPP-L-608 model helps protect hydraulic and electronic components from overheating. It is suitable for compact drain-line cooling, easy operation, and dependable performance in continuous-duty applications.",
+      "Our HPP-L-608 model prevents your electronic components from the loss due to overheating. Its oil flow LPM is 1-12, Also the fan size is 6 (150) inches. This oil cooler model presents the best drain line for VD pumps. But make sure that the bar pressure of the variable Displacement pump needs to be up to 70 bar pressure. Noise DBA depends on voltage and the frequency is 50 GHz. The optimum accuracy level and easy operation of this model make it the first preference of the users. Buy this model today to increase the life of your item.",
     images: ["7.png", "8.jpg", "9.jpg"],
   },
   {
     title: "HPP-W-0608",
     description:
-      "HPP-W-0608 is a D-cup cooler model designed for efficient oil cooling with compact fitment, dependable airflow, and simple installation for hydraulic systems.",
+      "Our best D cup cooler model number HPP-W-0608 is now available with the most compatible solutions. We have upgraded it with unique efficiency and features. The oil flow LPM of this model is 1-22. The fan size is 6 (150) inches. The noise DBA of HPP-W-0608. Is 55 GHz with a voltage of 230 and an AC power source. This noise is variable with a DC power source and 12-14 voltage. The presence of oil works as a lubricant. According to experts, oil is the best heat and rust conductor. So this model can effectively keep your internal combustion devices cool without any additional support. Book HPP-W-0608 today to save your items from heating effects.",
     images: ["10.jpg", "11.jpg", "12.png"],
   },
   {
     title: "HPP-W-0608-F2",
     description:
-      "HPP-W-0608-F2 is a demanding cooling model built for improved heat dissipation, variable operating conditions, and reduced maintenance effort.",
+      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-W-0608-F2 is one of the most demanding cooling models. The oil flow LPM of this model is 1-22 with a fan size of 6(150) inches. You will find variable noise DBA according to the Voltage and power source. Noise DBA is available from 58 to 62. This model allows you a direct application to your electronic components. Oil is a proven source to eliminate the risk of corrosion which can affect the life of your electronic component. You don’t have to make extra efforts in its application and maintenance. So get one today and enjoy unlimited benefits for your various electric appliances.",
     images: ["13.jpg", "14.jpg", "15.jpg"],
   },
   {
     title: "HPP-H-0608",
     description:
-      "HPP-H-0608 is an efficient D-cup cooling model for hydraulic circuits that require compact cooling support and reliable thermal control.",
+      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-0608 is one of the most demanding cooling models.",
     images: ["16.jpg", "17.jpg", "18.jpg"],
   },
   {
     title: "HPP-H-0608-F2",
     description:
-      "HPP-H-0608-F2 is designed for demanding oil-cooling applications where steady performance, strong construction, and easy serviceability are required.",
+      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-0608-F2 is one of the most demanding cooling models.",
     images: ["19.jpg", "20.jpg", "21.jpg"],
   },
   {
     title: "HPP-H-1012,1P,3P&D12V&D24V",
     description:
-      "This model range is suitable for hydraulic systems that need efficient D-cup cooling across AC, DC, single-phase, and three-phase power options.",
+      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-1012,1P,3P&D12V&D24V is one of the most demanding cooling models.",
     images: ["22.jpg", "23.jpg", "24.jpg"],
   },
   {
     title: "HPP-H-1215-1P,3P,D12V & D24V",
     description:
-      "HPP-H-1215 models are designed for higher cooling demand while maintaining compact installation and dependable operation.",
+      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-1215-1P,3P,D12V & D24V is one of the most demanding cooling models.",
     images: ["25.jpg", "26.jpg", "27.jpg"],
+  },
+   {
+    title: "HPP-H-1418-1P & 3P",
+    description:
+      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-1418-1P & 3P & D24V is one of the most demanding cooling models.",
+    images: ["28.jpg", "29.jpg", "30.jpg"],
+  },
+   {
+    title: "HPP-H-1428-1P & 3P",
+    description:
+      "If you are looking for a high-level capacity of oil cooler models then Hydraulic & Pneumatic Products have the best solution for you. Model number HPP-H-1428-1P & 3P is one of our high-range D cup coolers. This model can serve you the oil flow LPM for 30 to 200. Which is great for your advanced cooling purpose. The size of the fan is almost double that of the regular models. Its size is 14 (350) inches. DBA noise remains the same (75) with any voltage, current, and power sources. Generally, power sources are AC and DC. Voltage requirements are 230 with AC and 1 phase. Get this high-capacity drain line solution today at the most reasonable prices with us.",
+    images: ["31.jpg", "32.jpg", "33.jpg"],
+  },
+   {
+    title: "HPP-H-1490-1P & 3P",
+    description:
+      "We understand that different users have different requirements. That this the reason we have many models to suit your cooling purposes. HPP-H-1490-1P & 3P The model belongs to one of the best-performing D cup cooling models. The oil Flow LPM of this range is 30 to 260 with a large fan size of 14 (350) inches. The noise DBA 60 remains the same with AC DC power source, variable voltage, current, and 50 frequency. We use cast iron headers, Nitrate, and Vitron seal to serve the best quality results for a longer duration. Book your order today for model number HPP-H-1490-1P & 3P and enjoy an uninterrupted performance of your electronic components.",
+    images: ["34.jpg", "35.jpg", "36.jpg"],
+  },
+  {
+    title: "HPP-H-1680-1P & 3P",
+    description:
+      "Are you looking for a D-cup cooling solution with a larger fan size? Hydraulic & Pneumatic Products introduces the best model HPP-H-1680-1P & 3P for this purpose. The oil flow LPM is 30 to 280. The fan size of this model is 16 (400) inches. It performs so well with AC power supply and 1 & 3 phase. Current requirements are variable but the Noise DBA of 76 remains the same at each condition. You can buy them to use to cool any item. This model can perform efficiently at a temperature of 100-degree celsius or higher. The most impressive part of this device is no requirement for any coolant tank. Oil lubricants are enough to perform as electric insulators and cooling solutions.",
+    images: ["37.jpg", "38.jpg", "39.jpg"],
+  },
+  {
+    title: "HPP-H-1890-1P & 3P",
+    description:
+      "Hydraulic & Pneumatic Products are leading manufacturers of ideal oil coolers. Our model number HPP-H-1890-1P & 3P is known for the best output and largest fan size. Its oil flow LPM is 30 to 280. The fan size of 18 (400) is the center of attraction of its overall features. This model number performs at a high voltage of 230 with an AC power source and a single phase. With 3 Phase voltage is required for 415 with an AC power supply. 79 Noise DBA remains the same in both conditions. Your internal combustion device will perform uninterruptedly with the use of this cooling device. So why are you waiting? Contact us and get this model delivered to you now.",
+    images: ["40.jpg", "41.jpg", "42.jpg","43.jpg","44.jpg","45.jpg"],
   },
   
 ];

@@ -17,7 +17,7 @@ const projects = [
     id: 2,
     title: "Hydraulic Power Pack",
     image:
-      "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1600&auto=format&fit=crop",
     projectNo: "02",
     description: "Hydraulic Power Pack Manufacturing",
   },
