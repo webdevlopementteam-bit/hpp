@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import {
     FaFacebookF,
     FaInstagram,
@@ -11,7 +13,53 @@ import {
     FaMapMarkerAlt,
 } from "react-icons/fa";
 
+const WEB3FORMS_ACCESS_KEYS = [
+    "bce73fc1-339e-48a1-bc67-8625d14201d5",
+    "4dc4704b-85d3-4a68-a3d2-edaf55216f15",
+];
+
 export default function ContactPage() {
+    const router = useRouter();
+    const [submitting, setSubmitting] = useState(false);
+    const [error, setError] = useState("");
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setError("");
+        setSubmitting(true);
+
+        const form = e.target;
+        const baseData = new FormData(form);
+
+        try {
+            const results = await Promise.all(
+                WEB3FORMS_ACCESS_KEYS.map((key) => {
+                    const data = new FormData();
+                    for (const [k, v] of baseData.entries()) data.append(k, v);
+                    data.append("access_key", key);
+
+                    return fetch("https://api.web3forms.com/submit", {
+                        method: "POST",
+                        body: data,
+                    }).then((res) => res.json());
+                })
+            );
+
+            const succeeded = results.some((result) => result.success);
+
+            if (succeeded) {
+                form.reset();
+                router.push("/thank-you");
+            } else {
+                setError("Something went wrong. Please try again.");
+            }
+        } catch (err) {
+            setError("Something went wrong. Please try again.");
+        } finally {
+            setSubmitting(false);
+        }
+    };
+
     return (
         <main className="bg-white">
             {/* ================= HERO ================= */}
@@ -190,42 +238,58 @@ export default function ContactPage() {
                         Send Us A Message
                     </h2>
 
-                    <form className="grid gap-6 md:grid-cols-2">
+                    <form onSubmit={handleSubmit} className="grid gap-6 md:grid-cols-2">
 
                         <input
                             type="text"
+                            name="name"
+                            required
                             placeholder="Your Name"
                             className="h-14 rounded border border-gray-300 px-5 outline-none focus:border-[#13264F]"
                         />
 
                         <input
                             type="email"
+                            name="email"
+                            required
                             placeholder="Email Address"
                             className="h-14 rounded border border-gray-300 px-5 outline-none focus:border-[#13264F]"
                         />
 
                         <input
                             type="tel"
+                            name="phone"
                             placeholder="Phone Number"
                             className="h-14 rounded border border-gray-300 px-5 outline-none focus:border-[#13264F]"
                         />
 
                         <input
                             type="text"
+                            name="subject"
                             placeholder="Subject"
                             className="h-14 rounded border border-gray-300 px-5 outline-none focus:border-[#13264F]"
                         />
 
                         <textarea
                             rows={6}
+                            name="message"
+                            required
                             placeholder="Your Message"
                             className="rounded border border-gray-300 p-5 outline-none focus:border-[#13264F] md:col-span-2"
                         ></textarea>
 
+                        {error && (
+                            <p className="text-sm font-medium text-red-600 md:col-span-2">
+                                {error}
+                            </p>
+                        )}
+
                         <button
-                            className="h-14 rounded bg-[#13264F] text-lg font-semibold text-white transition hover:bg-orange-500 md:col-span-2"
+                            type="submit"
+                            disabled={submitting}
+                            className="h-14 rounded bg-[#13264F] text-lg font-semibold text-white transition hover:bg-orange-500 disabled:cursor-not-allowed disabled:opacity-60 md:col-span-2"
                         >
-                            Send Message
+                            {submitting ? "Sending..." : "Send Message"}
                         </button>
 
                     </form>
