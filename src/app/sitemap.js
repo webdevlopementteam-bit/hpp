@@ -12,12 +12,12 @@ const corePages = [
 
 const productPages = [
   "/hydraulic-power-pack",
-  "/hydraulic-cylinder",
+  "/hydraulic-cylinder-manufacturer",
   "/pneumatic-cylinder",
-  "/air-cooled-oil-cooler",
-  "/water-cooled-oil-cooler",
+  "/air-cooled-oil-cooler-manufacturer",
+  "/water-cooled-oil-cooler-manufacturer",
   "/worm-gear-screw-jack",
-  "/industrial-hydraulic-jack",
+  "/industrial-hydraulic-jack-manufacturer",
   "/hydro-tester-machine",
   "/hydraulic-press",
   "/hydraulic-paper-mill-system",
