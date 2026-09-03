@@ -177,7 +177,7 @@ export default function IndustrialHydraulicEquipmentManufacturerDenmarkPage() {
               <div className="flex h-64 items-center justify-center bg-gray-100 p-6">
                 <Image
                   src={category.image}
-                  alt={category.label}
+                  alt={`${category.label} - HPP product category`}
                   width={500}
                   height={420}
                   className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"

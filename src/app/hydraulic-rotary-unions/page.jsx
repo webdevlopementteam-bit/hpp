@@ -76,12 +76,36 @@ const specs = [
 ];
 
 const products = [
-  { name: "Rotary Union", image: "1.png" },
-  { name: "Rotary Union", image: "2.png" },
-  { name: "Multi Port Hydraulic Rotary Union", image: "3.png" },
-  { name: "Rotary Union", image: "4.png" },
-  { name: "Rotary Union", image: "5.png" },
-  { name: "Rotary Union", image: "6.png" },
+  {
+    name: "Rotary Union",
+    image: "1.png",
+    alt: "HPP single-port hydraulic rotary union pair with nylon-capped connector",
+  },
+  {
+    name: "Rotary Union",
+    image: "2.png",
+    alt: "HPP hydraulic rotary union with three red side ports and blue top cap",
+  },
+  {
+    name: "Multi Port Hydraulic Rotary Union",
+    image: "3.png",
+    alt: "HPP multi port hydraulic rotary union with flange mount and three blue ports",
+  },
+  {
+    name: "Rotary Union",
+    image: "4.png",
+    alt: "HPP hydraulic rotary union set with hex fitting and brass seal ring",
+  },
+  {
+    name: "Rotary Union",
+    image: "5.png",
+    alt: "HPP hydraulic rotary union with threaded top connector and blue side ports",
+  },
+  {
+    name: "Rotary Union",
+    image: "6.png",
+    alt: "HPP hydraulic rotary union pair with printed pressure rating label",
+  },
 ];
 
 export default function HydraulicRotaryUnionsPage() {
@@ -131,7 +155,7 @@ export default function HydraulicRotaryUnionsPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
               src="/products/hydraulic-rotary-unions/main.png"
-              alt={title}
+              alt="HPP Hydraulic Rotary Union - rotating fluid transfer component"
               width={700}
               height={560}
               className="h-auto w-full object-contain"
@@ -213,7 +237,7 @@ export default function HydraulicRotaryUnionsPage() {
                 <div className="flex h-80 items-center justify-center bg-white p-6">
                   <Image
                     src={`/Hydraulic Rotary Unions/${product.image}`}
-                    alt={product.name}
+                    alt={product.alt}
                     width={560}
                     height={480}
                     className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"

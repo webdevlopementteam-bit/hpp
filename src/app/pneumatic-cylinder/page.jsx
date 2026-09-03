@@ -124,7 +124,7 @@ export default function PneumaticCylinderPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-10">
             <Image
               src="/products/pneumatic-cylinder/main.png"
-              alt={title}
+              alt="HPP Pneumatic Cylinder - industrial pneumatic actuator"
               width={700}
               height={560}
               className="h-auto w-full object-contain"

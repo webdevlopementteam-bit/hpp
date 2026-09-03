@@ -76,9 +76,21 @@ const specs = [
 ];
 
 const products = [
-  { name: "2-Station Electric Control Panel", image: "1.png" },
-  { name: "Paper Mill System", image: "2.png" },
-  { name: "5-Station Electric Control Panel", image: "3.png" },
+  {
+    name: "2-Station Electric Control Panel",
+    image: "1.png",
+    alt: "HPP 2-station electric control panel for hydraulic paper mill systems",
+  },
+  {
+    name: "Paper Mill System",
+    image: "2.png",
+    alt: "HPP hydraulic power unit with pressure gauges and control panel for paper mill systems",
+  },
+  {
+    name: "5-Station Electric Control Panel",
+    image: "3.png",
+    alt: "HPP 5-station electric control panel for hydraulic paper mill systems",
+  },
 ];
 
 export default function HydraulicPaperMillSystemPage() {
@@ -128,7 +140,7 @@ export default function HydraulicPaperMillSystemPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
               src="/products/hydraulic-paper-mill-system/main.png"
-              alt={title}
+              alt="HPP Hydraulic Paper Mill System - hydraulic system for paper mill machinery"
               width={700}
               height={560}
               className="h-auto w-full object-contain"
@@ -209,7 +221,7 @@ export default function HydraulicPaperMillSystemPage() {
                 <div className="flex h-80 items-center justify-center bg-white p-6">
                   <Image
                     src={`/Hydraulic Paper Mill System/${product.image}`}
-                    alt={product.name}
+                    alt={product.alt}
                     width={560}
                     height={480}
                     className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"

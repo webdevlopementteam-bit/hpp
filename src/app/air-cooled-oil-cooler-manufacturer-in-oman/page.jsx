@@ -261,7 +261,7 @@ export default function AirCooledOilCoolerPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
               src="/products/air-cooled-oil-cooler/main.png"
-              alt={title}
+              alt="HPP Air Cooled Oil Cooler - industrial hydraulic oil cooling unit"
               width={700}
               height={560}
               className="h-auto w-full object-contain"

@@ -12,7 +12,7 @@ const categories = [
   },
   {
     label: "Hydraulic Cylinder",
-    href: "/hydraulic-cylinder",
+    href: "/hydraulic-cylinder-manufacturer",
     image: "/products/hydraulic-cylinder/main.png",
   },
   {
@@ -22,12 +22,12 @@ const categories = [
   },
   {
     label: "Air Cooled Oil Cooler",
-    href: "/air-cooled-oil-cooler",
+    href: "/air-cooled-oil-cooler-manufacturer",
     image: "/products/air-cooled-oil-cooler/main.png",
   },
   {
     label: "Water-Cooled Oil Cooler",
-    href: "/water-cooled-oil-cooler",
+    href: "/water-cooled-oil-cooler-manufacturer",
     image: "/products/water-cooled-oil-cooler/main.png",
   },
   {
@@ -37,7 +37,7 @@ const categories = [
   },
   {
     label: "Industrial Hydraulic Jack",
-    href: "/industrial-hydraulic-jack",
+    href: "/industrial-hydraulic-jack-manufacturer",
     image: "/products/industrial-hydraulic-jack/main.png",
   },
   {
@@ -125,7 +125,7 @@ export default function ProductsPage() {
               <div className="flex h-64 items-center justify-center bg-gray-100 p-6">
                 <Image
                   src={category.image}
-                  alt={category.label}
+                  alt={`${category.label} - HPP product category`}
                   width={500}
                   height={420}
                   className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"

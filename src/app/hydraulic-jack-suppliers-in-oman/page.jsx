@@ -202,7 +202,7 @@ export default function IndustrialHydraulicJackPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
               src="/products/industrial-hydraulic-jack/main.png"
-              alt={title}
+              alt="HPP Industrial Hydraulic Jack - heavy-duty hydraulic lifting jack"
               width={700}
               height={560}
               className="h-auto w-full object-contain"

@@ -95,12 +95,36 @@ const specs = [
 ];
 
 const products = [
-  { name: "Water Cooler for Hydraulic Power Pack", image: "1.png" },
-  { name: "Water Cooler for Hydraulic Power Pack", image: "2.png" },
-  { name: "Water Cooler for Test Bench", image: "3.png" },
-  { name: "Water Cooler for Turbine", image: "4.png" },
-  { name: "Water Cooled Oil Cooler - Offline Cooling", image: "5.png" },
-  { name: "Heat Exchanger for Power Plants", image: "6.png" },
+  {
+    name: "Water Cooler for Hydraulic Power Pack",
+    image: "1.png",
+    alt: "HPP water cooled heat exchanger, compact model with dual end flanges",
+  },
+  {
+    name: "Water Cooler for Hydraulic Power Pack",
+    image: "2.png",
+    alt: "HPP water cooled heat exchanger, slim elongated model with dual end flanges",
+  },
+  {
+    name: "Water Cooler for Test Bench",
+    image: "3.png",
+    alt: "HPP water cooled oil cooler for hydraulic test bench applications",
+  },
+  {
+    name: "Water Cooler for Turbine",
+    image: "4.png",
+    alt: "HPP water cooled oil cooler engineered for turbine cooling applications",
+  },
+  {
+    name: "Water Cooled Oil Cooler - Offline Cooling",
+    image: "5.png",
+    alt: "HPP water cooled oil cooler for offline cooling system applications",
+  },
+  {
+    name: "Heat Exchanger for Power Plants",
+    image: "6.png",
+    alt: "HPP water cooled heat exchanger engineered for power plant applications",
+  },
 ];
 
 export default function WaterCooledOilCoolerPage() {
@@ -150,7 +174,7 @@ export default function WaterCooledOilCoolerPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
               src="/products/water-cooled-oil-cooler/main.png"
-              alt={title}
+              alt="HPP Water Cooled Oil Cooler - industrial hydraulic heat exchanger"
               width={700}
               height={560}
               className="h-auto w-full object-contain"
@@ -249,7 +273,7 @@ export default function WaterCooledOilCoolerPage() {
                 <div className="flex h-80 items-center justify-center bg-white p-6">
                   <Image
                     src={`/Water Cooled Oil Cooler/${product.image}`}
-                    alt={product.name}
+                    alt={product.alt}
                     width={560}
                     height={480}
                     className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"

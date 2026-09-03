@@ -7,54 +7,49 @@ import FAQAccordion from "@/components/FAQAccordion";
 
 const faqs = [
   {
-    question: "How does an air cooled oil cooler work?",
-    answer:
-      "An air cooled oil cooler uses finned tubes and a fan to pass ambient air over hot hydraulic oil, transferring heat from the oil to the air and lowering oil temperature without needing a water source.",
-  },
-  {
     question: "What is the ideal oil flow rate for an air cooled oil cooler?",
     answer:
-      "The ideal oil flow rate depends on the system's cooling load, typically ranging from 1-22 LPM for compact units to 30-280 LPM for high-capacity industrial models handling heavier heat loads.",
+      "Ideal oil flow depends on system load — HPP offers models from 1-12 LPM for small hydraulic circuits (like HPP-L-608) up to 260-280 LPM for heavy-duty applications (like HPP-H-1490 and HPP-H-1680). Choosing the right LPM range depends on your pump displacement and operating pressure.",
   },
   {
     question: "Can an air cooled oil cooler work without a coolant tank?",
     answer:
-      "Yes, many air cooled oil cooler models operate without a separate coolant tank, as the hydraulic oil itself acts as both lubricant and heat-transfer medium during the cooling process.",
+      "Yes. HPP's air cooled oil coolers use ambient air and finned-tube technology to dissipate heat, so no separate coolant tank or water source is required — the oil itself acts as both lubricant and cooling medium.",
   },
   {
     question: "What fan size is needed for effective oil cooling?",
     answer:
-      "Fan size depends on the required cooling capacity — smaller units use 6-inch fans for lower oil flow (up to 22 LPM), while high-capacity coolers use 14 to 18-inch fans to handle oil flows above 200 LPM.",
+      "Fan size depends on flow rate and heat load. Compact models use 6-inch fans for oil flows up to 22 LPM, while high-capacity coolers like HPP-H-1680 and HPP-H-1890 use 14 to 18-inch fans to handle flows up to 280 LPM.",
   },
   {
     question: "Are air cooled oil coolers suitable for mobile equipment?",
     answer:
-      "Yes, air cooled oil coolers with hydraulic motor-driven fans are commonly used in mobile equipment, stone crushers, and moving vehicles since they don't require a fixed water supply.",
+      "Yes. HPP's hydraulic motor-driven air cooled oil coolers are specifically designed for moving vehicles and mobile equipment, offering compact installation and reliable cooling without needing a fixed water supply.",
   },
   {
     question: "Who is the best air cooled oil cooler manufacturer in India?",
     answer:
-      "HPP is a leading air cooled oil cooler manufacturer in India, offering a wide range of models from compact 6-inch fan units to high-capacity 18-inch fan coolers for industrial, mobile, and heavy-duty applications.",
+      "HPP (Hydraulic & Pneumatic Products) is a leading air cooled oil cooler manufacturer in India, known for a wide product range, AC/DC and single/three-phase configurations, and applications across cement plants, stone crushers, gearboxes, and mobile machinery.",
   },
   {
     question: "Which company supplies air cooled oil coolers for stone crusher machines?",
     answer:
-      "HPP supplies air cooled oil coolers specifically designed for stone crusher machines, engineered to handle high heat loads and continuous operation in demanding crushing applications.",
+      "HPP manufactures dedicated air-cooled oil coolers for stone crusher machines, built to withstand high dust, vibration, and continuous-duty operating conditions common in crushing plants.",
   },
   {
     question: "Who is a trusted air cooled oil cooler supplier for cement plants?",
     answer:
-      "HPP is a trusted air cooled oil cooler supplier for cement plants, providing offline cooling systems built for high ambient temperature and continuous industrial operation.",
+      "HPP supplies offline cooling systems and air cooled oil coolers specifically engineered for cement plant hydraulic circuits, ensuring stable oil temperature under continuous heavy-load operation.",
   },
   {
     question: "Which manufacturer offers air cooled oil coolers in AC and DC power options?",
     answer:
-      "HPP manufactures air cooled oil coolers available in both AC and DC power configurations, including 12V and 24V options, to suit different industrial and mobile power requirements.",
+      "HPP offers both AC and DC powered air cooled oil cooler models — including 12V and 24V DC options — across multiple fan sizes and flow capacities, suitable for both industrial and mobile applications.",
   },
   {
     question: "Where can I find a reliable air cooled oil cooler supplier near me in India?",
     answer:
-      "HPP, based in New Delhi, is a reliable air cooled oil cooler supplier serving industries across India with a wide product range, custom solutions, and dedicated after-sales support.",
+      "HPP supplies air cooled oil coolers across India with a strong presence in Delhi NCR, offering direct manufacturer support, fast delivery, and installation assistance for hydraulic system integrators and industrial equipment builders.",
   },
 ];
 
@@ -79,8 +74,11 @@ const featuredProducts = [
 const modelSections = [
   {
     title: "HPP-L-608",
-    description:
-      "Our HPP-L-608 model prevents your electronic components from the loss due to overheating. Its oil flow LPM is 1-12, Also the fan size is 6 (150) inches. This oil cooler model presents the best drain line for VD pumps. But make sure that the bar pressure of the variable Displacement pump needs to be up to 70 bar pressure. Noise DBA depends on voltage and the frequency is 50 GHz. The optimum accuracy level and easy operation of this model make it the first preference of the users. Buy this model today to increase the life of your item.",
+    description: (
+      <>
+        As a trusted <Link href="/water-cooled-oil-cooler-manufacturer" className="font-semibold text-[#f35a3b] hover:underline">air cooled oil cooler manufacturer</Link>, our HPP-L-608 model prevents your electronic components due to overheating. Its oil flow LPM is 1-12, and the fan size is 6 (150) inches. This air cooled oil cooler model provides the best drain line for VD pumps. However, make sure the variable displacement pump bar pressure is up to 70 bar. Noise DBA depends on voltage, and the frequency is 50 Hz. The optimum accuracy and easy operation make this model the first choice for users. Buy this air cooled oil cooler today to increase the life of your item.
+      </>
+    ),
     images: ["7.png", "8.jpg", "9.jpg"],
   },
   {
@@ -92,7 +90,7 @@ const modelSections = [
   {
     title: "HPP-W-0608-F2",
     description:
-      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-W-0608-F2 is one of the most demanding cooling models. The oil flow LPM of this model is 1-22 with a fan size of 6(150) inches. You will find variable noise DBA according to the Voltage and power source. Noise DBA is available from 58 to 62. This model allows you a direct application to your electronic components. Oil is a proven source to eliminate the risk of corrosion which can affect the life of your electronic component. You don’t have to make extra efforts in its application and maintenance. So get one today and enjoy unlimited benefits for your various electric appliances.",
+      "Hydraulic and Pneumatic Products (HPP) is known as a trusted air cooled oil cooler supplier in Delhi, offering the most efficient D-cup cooling models. HPP-W-0608-F2 is one of the most demanding cooling models. The oil flow LPM of this model is 1-22, with a fan size of 6 (150) inches. You will find variable noise DBA according to the voltage and power source—noise DBA ranges from 58 to 62. This model allows direct application to your electronic components. Oil is a proven solution to eliminate the risk of corrosion, which can affect the life of your electronic component. You don't have to make extra efforts in its application and maintenance. So get one today from a reliable air cooled oil cooler supplier in Delhi and enjoy unlimited benefits for your various electric appliances.",
     images: ["13.jpg", "14.jpg", "15.jpg"],
   },
   {
@@ -133,8 +131,11 @@ const modelSections = [
   },
    {
     title: "HPP-H-1490-1P & 3P",
-    description:
-      "We understand that different users have different requirements. That this the reason we have many models to suit your cooling purposes. HPP-H-1490-1P & 3P The model belongs to one of the best-performing D cup cooling models. The oil Flow LPM of this range is 30 to 260 with a large fan size of 14 (350) inches. The noise DBA 60 remains the same with AC DC power source, variable voltage, current, and 50 frequency. We use cast iron headers, Nitrate, and Vitron seal to serve the best quality results for a longer duration. Book your order today for model number HPP-H-1490-1P & 3P and enjoy an uninterrupted performance of your electronic components.",
+    description: (
+      <>
+        We understand that different users have different requirements. That is the reason why, as a leading <Link href="/water-cooled-oil-cooler-manufacturer" className="font-semibold text-[#f35a3b] hover:underline">air cooled oil cooler manufacturer</Link>, we have many models to suit your cooling purposes. HPP-H-1490-1P & 3P belong to one of the best-performing D-cup cooling models. The oil flow LPM of this range is 30 to 260, with a large fan size of 14 (350) inches. The noise level of 60 dBA remains the same with an AC/DC power source, variable voltage, current, and 50 Hz frequency. We use cast iron headers, nitrile, and Viton seals to deliver the best quality results for a longer duration. Book your order today for these air-cooled oil cooler models, HPP-H-1490-1P & 3P and enjoy uninterrupted performance of your electronic components
+      </>
+    ),
     images: ["34.jpg", "35.jpg", "36.jpg"],
   },
   {
@@ -146,7 +147,7 @@ const modelSections = [
   {
     title: "HPP-H-1890-1P & 3P",
     description:
-      "Hydraulic & Pneumatic Products are leading manufacturers of ideal oil coolers. Our model number HPP-H-1890-1P & 3P is known for the best output and largest fan size. Its oil flow LPM is 30 to 280. The fan size of 18 (400) is the center of attraction of its overall features. This model number performs at a high voltage of 230 with an AC power source and a single phase. With 3 Phase voltage is required for 415 with an AC power supply. 79 Noise DBA remains the same in both conditions. Your internal combustion device will perform uninterruptedly with the use of this cooling device. So why are you waiting? Contact us and get this model delivered to you now.",
+      "Hydraulic & Pneumatic Products is a leading air cooled oil cooler supplier in Delhi, known for manufacturing ideal oil coolers. Our model number HPP-H-1890-1P & 3P is known for the best output and largest fan size. Its oil flow is 30 to 280 LPM. The fan size of 18 (400) is the center of attraction of its overall features. This model number performs at a high voltage of 230 with an AC power source and a single phase. For 3-phase, the required voltage is 415 with an AC power supply. Noise DBA of 79 remains the same in both conditions. Your internal combustion device will perform uninterruptedly with the use of this cooling device. So why are you waiting? Contact our air-cooled oil cooler supplier in Delhi and get this model delivered to you now.",
     images: ["40.jpg", "41.jpg", "42.jpg","43.jpg","44.jpg","45.jpg"],
   },
   
@@ -205,7 +206,7 @@ function ModelSection({ title, description, images }) {
 }
 
 export default function AirCooledOilCoolerPage() {
-  const title = "Air Cooled Oil Cooler";
+  const title = "Air Cooled Oil Cooler Manufacturer";
 
   return (
     <section>
@@ -251,7 +252,7 @@ export default function AirCooledOilCoolerPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
               src="/products/air-cooled-oil-cooler/main.png"
-              alt={title}
+              alt="HPP Air Cooled Oil Cooler - industrial hydraulic oil cooling unit"
               width={700}
               height={560}
               className="h-auto w-full object-contain"
@@ -265,15 +266,8 @@ export default function AirCooledOilCoolerPage() {
             <div className="mb-6 h-1 w-16 rounded-full bg-[#f35a3b]" />
 
             <p className="text-lg leading-8 text-gray-600">
-              HPP Air-Cooled Oil Coolers are one of the most selling products.
-              They are essential for maintaining the ideal temperature in
-              hydraulic systems, extending component life, and reducing system
-              downtime. Our coolers are built with high-efficiency finned tubes
-              and electric or hydraulic-driven fans. They are easy to install
-              and ideal for mobile equipment, compressors, and power units
-              operating in high ambient temperature conditions. Designed for
-              optimal heat dissipation and minimal energy consumption, our air
-              coolers meet the cooling demands of various hydraulic circuits.
+             HPP (Hydraulic & Pneumatic Products) is a leading <Link href="/water-cooled-oil-cooler-manufacturer" className="font-semibold text-[#f35a3b] hover:underline">air cooled oil cooler manufacturer</Link> in Delhi, specializing in finned-tube coolers with electric and hydraulic-driven fan systems. Our coolers are engineered for hydraulic power units, mobile equipment, compressors, gearboxes, and stone crusher machines operating in high ambient temperatures. With oil flow capacities ranging from 1 LPM to 280 LPM and fan sizes from 6" to 18", HPP delivers reliable, low-maintenance cooling solutions backed by in-house manufacturing and pan-India supply.
+
             </p>
           </div>
         </div>
@@ -311,32 +305,25 @@ export default function AirCooledOilCoolerPage() {
       {/* Content */}
       <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
         <h2 className="mb-6 text-3xl font-bold text-[#0d1b3f] md:text-4xl">
-          Air Cooled Oil Cooler Manufacturer &amp; Supplier in India
+          Air Cooled Oil Cooler Manufacturer & Supplier in Delhi, India
         </h2>
         <div className="space-y-6 text-lg leading-8 text-gray-600">
           <p>
-            HPP is a leading air cooled oil cooler manufacturer and supplier
-            in India, offering high-efficiency cooling solutions to maintain
-            optimal oil temperature in hydraulic systems. Built with
-            high-efficiency finned tubes and electric or hydraulic-driven
-            fans, our air-cooled oil coolers ensure reliable heat
-            dissipation, extended component life, and reduced system
-            downtime.
+           HPP is a well-established <Link href="/water-cooled-oil-cooler-manufacturer" className="font-semibold text-[#f35a3b] hover:underline">air cooled oil cooler manufacturer</Link> in Delhi, serving hydraulic system OEMs, industrial machine builders, and maintenance teams across Delhi NCR. Our Delhi-based clients rely on us for fast turnaround, on-site technical support, and locally stocked spare parts for popular models like HPP-L-608 and HPP-W-0608.
+As a trusted air cooled oil cooler supplier in Delhi, we work directly with hydraulic power unit manufacturers, compressor companies, cement plants, and construction equipment dealers in the region. Our Delhi supply network ensures shorter delivery timelines compared to sourcing from outside NCR, along with easier access for site visits, installation guidance, and after-sales service.
+
           </p>
           <p>
-            Our range covers multiple models — from compact units like
-            HPP-L-608 and HPP-W-0608 (oil flow 1-22 LPM) to high-capacity
-            coolers like HPP-H-1490 and HPP-H-1890 (oil flow up to 280 LPM,
-            fan sizes up to 18 inches) — available in AC/DC, single-phase,
-            and three-phase configurations to suit different industrial
-            loads.
+           <span className="font-bold">Why Delhi-based industries choose HPP:</span>  <br/>
+           <ul className="list-disc pl-6 text-gray-600">
+             <li>Faster delivery within Delhi NCR (reduced logistics time)</li> 
+<li>  On-ground technical support and installation assistance</li>
+<li>Wide model range covering both low-flow (1-22 LPM) and high-capacity (up to 280 LPM) requirements</li>
+<li>Direct manufacturer pricing — no middleman markup</li>
+<li>Proven track record with cement, automobile, and crusher machine industries in the region</li>
+</ul>
           </p>
-          <p>
-            These coolers are ideal for mobile equipment, compressors,
-            gearboxes, stone crushers, cement plants, and power units
-            operating in high ambient temperature conditions, with easy
-            installation and minimal energy consumption.
-          </p>
+         
         </div>
       </div>
 

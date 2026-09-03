@@ -74,7 +74,7 @@ export default function Breadcrumb({
     </div>
 
     <div className ="flex justify-center items-center">
-    <Image src="/globe.jpg"  width={950}
+    <Image src="/globe.jpg" alt="World map showing HPP's global presence" width={950}
           height={950}/>
 
     </div>

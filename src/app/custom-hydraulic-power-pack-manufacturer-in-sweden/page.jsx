@@ -6,8 +6,16 @@ import { ChevronRight, Check, ArrowUpRight } from "lucide-react";
 import FAQAccordion from "@/components/FAQAccordion";
 
 const products = [
-  { name: "Hydraulic Power Pack for Rolling Mill Industry", image: "1.png" },
-  { name: "Hydraulic Power Pack for Rolling Mill Industry", image: "2.png" },
+  {
+    name: "Hydraulic Power Pack for Rolling Mill Industry",
+    image: "1.png",
+    alt: "HPP hydraulic power pack for rolling mill industry with valve bank and pressure gauges",
+  },
+  {
+    name: "Hydraulic Power Pack for Rolling Mill Industry",
+    image: "2.png",
+    alt: "HPP hydraulic power pack for rolling mill industry with external motor frame and oil cooler",
+  },
   { name: "Hydraulic Power Pack for Hydro Testers - Single Tube", image: "3.png" },
   { name: "Hydraulic Power Pack for Hydro Testers - Triple Tube", image: "4.png" },
   { name: "Hydraulic Power Pack for Ingot Cutting Machine", image: "5.png" },
@@ -139,7 +147,7 @@ export default function CustomHydraulicPowerPackManufacturerInSwedenPage() {
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
               src="/products/hydraulic-power-pack/main.png"
-              alt={title}
+              alt="HPP Hydraulic Power Pack - industrial hydraulic power unit"
               width={700}
               height={560}
               className="h-auto w-full object-contain"
@@ -199,7 +207,7 @@ export default function CustomHydraulicPowerPackManufacturerInSwedenPage() {
                 <div className="flex h-80 items-center justify-center bg-white p-6">
                   <Image
                     src={`/products/hydraulic-power-pack/${product.image}`}
-                    alt={product.name}
+                    alt={product.alt || product.name}
                     width={560}
                     height={480}
                     className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"

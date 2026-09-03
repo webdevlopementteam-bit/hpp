@@ -76,7 +76,7 @@ export default function TopProducts() {
               <div className="flex h-40 items-center justify-center bg-gray-100 p-4 sm:h-52">
                 <Image
                   src={product.image}
-                  alt={product.label}
+                  alt={`${product.label} - HPP product category`}
                   width={300}
                   height={260}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"

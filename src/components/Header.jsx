@@ -14,12 +14,12 @@ const navLinks = [
 
 const productLinks = [
   { label: "Hydraulic Power Pack", href: "/hydraulic-power-pack" },
-  { label: "Hydraulic Cylinder", href: "/hydraulic-cylinder" },
+  { label: "Hydraulic Cylinder", href: "/hydraulic-cylinder-manufacturer" },
   { label: "Pneumatic Cylinder", href: "/pneumatic-cylinder" },
-  { label: "Air Cooled Oil Cooler", href: "/air-cooled-oil-cooler" },
-  { label: "Water-Cooled Oil Cooler", href: "/water-cooled-oil-cooler" },
+  { label: "Air Cooled Oil Cooler", href: "/air-cooled-oil-cooler-manufacturer" },
+  { label: "Water-Cooled Oil Cooler", href: "/water-cooled-oil-cooler-manufacturer" },
   { label: "Worm Gear Screw Jack", href: "/worm-gear-screw-jack" },
-  { label: "Industrial Hydraulic Jack", href: "/industrial-hydraulic-jack" },
+  { label: "Industrial Hydraulic Jack", href: "/industrial-hydraulic-jack-manufacturer" },
   { label: "Hydro Tester Machine", href: "/hydro-tester-machine" },
   { label: "Hydraulic Press", href: "/hydraulic-press" },
   { label: "Hydraulic Paper Mill System", href: "/hydraulic-paper-mill-system" },
@@ -38,7 +38,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="/" className="flex flex-shrink-0 items-center gap-3">
           {/* Sun burst icon */}
-          <img src="/logo.png" className="h-10 w-full"/>
+          <img src="/logo.png" alt="HPP - Hydraulic and Pneumatic Products logo" className="h-10 w-full"/>
          
          
           <div className="leading-tight">
