@@ -10,6 +10,7 @@ const navLinks = [
   { label: "ABOUT US", href: "/about-us" },
   { label: "PRODUCTS", href: "/products", dropdown: true },
   { label: "GLOBAL PRESENCE", href: "/global-presence" },
+  { label: "BLOG", href: "/blog" },
 ];
 
 const productLinks = [
