@@ -93,24 +93,24 @@ const faqs = [
 const products = [
   {
     name: "Hydraulic Power Pack for Rolling Mill Industry",
-    image: "1.png",
+    image: "1.webp",
     alt: "HPP hydraulic power pack for rolling mill industry with valve bank and pressure gauges",
   },
   {
     name: "Hydraulic Power Pack for Rolling Mill Industry",
-    image: "2.png",
+    image: "2.webp",
     alt: "HPP hydraulic power pack for rolling mill industry with external motor frame and oil cooler",
   },
-  { name: "Hydraulic Power Pack for Hydro Testers - Single Tube", image: "3.png" },
-  { name: "Hydraulic Power Pack for Hydro Testers - Triple Tube", image: "4.png" },
-  { name: "Hydraulic Power Pack for Ingot Cutting Machine", image: "5.png" },
-  { name: "Hydraulic Power Pack for Straightening Machine", image: "6.png" },
-  { name: "Hydraulic Power Pack For Hydro Tester", image: "7.png" },
-  { name: "Hydraulic Power Pack for Injection Moulding Machine", image: "8.png" },
-  { name: "Hydraulic Power Pack for Push Pointer", image: "9.png" },
-  { name: "Hydraulic Power Pack for Sugar Mill Industry", image: "10.png" },
-  { name: "Hydraulic Power Pack for CNC Clamp/De-Clamp", image: "11.png" },
-  { name: "Hydraulic Power Pack for Hydraulic Press", image: "12.png" },
+  { name: "Hydraulic Power Pack for Hydro Testers - Single Tube", image: "3.webp" },
+  { name: "Hydraulic Power Pack for Hydro Testers - Triple Tube", image: "4.webp" },
+  { name: "Hydraulic Power Pack for Ingot Cutting Machine", image: "5.webp" },
+  { name: "Hydraulic Power Pack for Straightening Machine", image: "6.webp" },
+  { name: "Hydraulic Power Pack For Hydro Tester", image: "7.webp" },
+  { name: "Hydraulic Power Pack for Injection Moulding Machine", image: "8.webp" },
+  { name: "Hydraulic Power Pack for Push Pointer", image: "9.webp" },
+  { name: "Hydraulic Power Pack for Sugar Mill Industry", image: "10.webp" },
+  { name: "Hydraulic Power Pack for CNC Clamp/De-Clamp", image: "11.webp" },
+  { name: "Hydraulic Power Pack for Hydraulic Press", image: "12.webp" },
 ];
 
 export default function HydraulicPowerPackPage() {
@@ -121,7 +121,7 @@ export default function HydraulicPowerPackPage() {
       {/* Breadcrumb */}
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -133,7 +133,7 @@ export default function HydraulicPowerPackPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -161,7 +161,7 @@ export default function HydraulicPowerPackPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-10">
             <Image
-              src="/products/hydraulic-power-pack/main.png"
+              src="/products/hydraulic-power-pack/main.webp"
               alt="HPP Hydraulic Power Pack - industrial hydraulic power unit"
               width={700}
               height={560}

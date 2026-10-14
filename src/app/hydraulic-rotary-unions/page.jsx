@@ -78,32 +78,32 @@ const specs = [
 const products = [
   {
     name: "Rotary Union",
-    image: "1.png",
+    image: "1.webp",
     alt: "HPP single-port hydraulic rotary union pair with nylon-capped connector",
   },
   {
     name: "Rotary Union",
-    image: "2.png",
+    image: "2.webp",
     alt: "HPP hydraulic rotary union with three red side ports and blue top cap",
   },
   {
     name: "Multi Port Hydraulic Rotary Union",
-    image: "3.png",
+    image: "3.webp",
     alt: "HPP multi port hydraulic rotary union with flange mount and three blue ports",
   },
   {
     name: "Rotary Union",
-    image: "4.png",
+    image: "4.webp",
     alt: "HPP hydraulic rotary union set with hex fitting and brass seal ring",
   },
   {
     name: "Rotary Union",
-    image: "5.png",
+    image: "5.webp",
     alt: "HPP hydraulic rotary union with threaded top connector and blue side ports",
   },
   {
     name: "Rotary Union",
-    image: "6.png",
+    image: "6.webp",
     alt: "HPP hydraulic rotary union pair with printed pressure rating label",
   },
 ];
@@ -115,7 +115,7 @@ export default function HydraulicRotaryUnionsPage() {
     <section>
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -127,7 +127,7 @@ export default function HydraulicRotaryUnionsPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -154,7 +154,7 @@ export default function HydraulicRotaryUnionsPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
-              src="/products/hydraulic-rotary-unions/main.png"
+              src="/products/hydraulic-rotary-unions/main.webp"
               alt="HPP Hydraulic Rotary Union - rotating fluid transfer component"
               width={700}
               height={560}

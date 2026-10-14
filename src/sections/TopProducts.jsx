@@ -10,42 +10,42 @@ const topProducts = [
   {
     label: "Hydraulic Power Pack",
     href: "/hydraulic-power-pack",
-    image: "/products/hydraulic-power-pack/main.png",
+    image: "/products/hydraulic-power-pack/main.webp",
   },
   {
     label: "Hydraulic Cylinder",
     href: "/hydraulic-cylinder",
-    image: "/products/hydraulic-cylinder/main.png",
+    image: "/products/hydraulic-cylinder/main.webp",
   },
   {
     label: "Pneumatic Cylinder",
     href: "/pneumatic-cylinder",
-    image: "/products/pneumatic-cylinder/main.png",
+    image: "/products/pneumatic-cylinder/main.webp",
   },
   {
     label: "Air Cooled Oil Cooler",
     href: "/air-cooled-oil-cooler",
-    image: "/products/air-cooled-oil-cooler/main.png",
+    image: "/products/air-cooled-oil-cooler/main.webp",
   },
   {
     label: "Water-Cooled Oil Cooler",
     href: "/water-cooled-oil-cooler",
-    image: "/products/water-cooled-oil-cooler/main.png",
+    image: "/products/water-cooled-oil-cooler/main.webp",
   },
   {
     label: "Worm Gear Screw Jack",
     href: "/worm-gear-screw-jack",
-    image: "/products/worm-gear-screw-jack/main.png",
+    image: "/products/worm-gear-screw-jack/main.webp",
   },
   {
     label: "Industrial Hydraulic Jack",
     href: "/industrial-hydraulic-jack",
-    image: "/products/industrial-hydraulic-jack/main.png",
+    image: "/products/industrial-hydraulic-jack/main.webp",
   },
   {
     label: "Hydro Tester Machine",
     href: "/hydro-tester-machine",
-    image: "/products/hydro-tester-machine/main.png",
+    image: "/products/hydro-tester-machine/main.webp",
   },
 ];
 

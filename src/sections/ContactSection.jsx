@@ -79,7 +79,7 @@ export default function ContactSection() {
           {/* Phone / email block */}
           <div className="relative mt-10 flex items-center gap-6">
             <img
-              src="/houseimg.png"
+              src="/houseimg.webp"
               alt="Office illustration"
               className="h-28 w-28 flex-shrink-0 object-contain"
             />

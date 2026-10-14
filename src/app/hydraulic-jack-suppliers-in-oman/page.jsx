@@ -131,27 +131,27 @@ const qualityAssurance = [
 const products = [
   {
     name: "Hydraulic Jack 300 Ton Double Acting with Hydraulic Power Pack",
-    image: "1.png",
+    image: "1.webp",
   },
   {
     name: "Hydraulic Jack 100 Ton Single Acting With Hand pump",
-    image: "2.png",
+    image: "2.webp",
   },
   {
     name: "Hydraulic Jack - 25, 50, 100 Ton Single Acting with Hand Pump",
-    image: "3.png",
+    image: "3.webp",
   },
   {
     name: "Hydraulic Jack - 200 Ton Double Acting with Hand Pump",
-    image: "4.png",
+    image: "4.webp",
   },
   {
     name: "Hydraulic Jack - 50 Ton Single Acting with Hand Pump",
-    image: "5.png",
+    image: "5.webp",
   },
   {
     name: "Hydraulic Jack - 10 Ton Single Acting with Hand Pump",
-    image: "6.png",
+    image: "6.webp",
   },
 ];
 
@@ -162,7 +162,7 @@ export default function IndustrialHydraulicJackPage() {
     <section>
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -174,7 +174,7 @@ export default function IndustrialHydraulicJackPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -201,7 +201,7 @@ export default function IndustrialHydraulicJackPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
-              src="/products/industrial-hydraulic-jack/main.png"
+              src="/products/industrial-hydraulic-jack/main.webp"
               alt="HPP Industrial Hydraulic Jack - heavy-duty hydraulic lifting jack"
               width={700}
               height={560}

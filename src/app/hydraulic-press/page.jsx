@@ -50,9 +50,9 @@ const specs = [
 ];
 
 const products = [
-  { name: "Hydraulic Press for LPG Cylinder Crushing", image: "1.png" },
-  { name: "Hydraulic Press H-Type - 100 Ton", image: "2.png" },
-  { name: "Hydraulic Press for Automobiles", image: "3.png" },
+  { name: "Hydraulic Press for LPG Cylinder Crushing", image: "1.webp" },
+  { name: "Hydraulic Press H-Type - 100 Ton", image: "2.webp" },
+  { name: "Hydraulic Press for Automobiles", image: "3.webp" },
 ];
 
 export default function HydraulicPressPage() {
@@ -62,7 +62,7 @@ export default function HydraulicPressPage() {
     <section>
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -74,7 +74,7 @@ export default function HydraulicPressPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -101,7 +101,7 @@ export default function HydraulicPressPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
-              src="/products/hydraulic-press/main.png"
+              src="/products/hydraulic-press/main.webp"
               alt="HPP Hydraulic Press - industrial hydraulic press machine"
               width={700}
               height={560}

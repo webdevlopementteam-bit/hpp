@@ -68,7 +68,7 @@ const features = [
 const products = [
   {
     name: "Deaerating Valve",
-    image: "1.png",
+    image: "1.webp",
     alt: "HPP deaerating valve for hydro tester machine, black flanged body with side inlet",
     description:
       "Removes trapped air or gas from liquid systems like water or oil pipelines, preventing noise, blockages, and damage. Common in heating, hydraulic, and water supply systems.",
@@ -81,7 +81,7 @@ const products = [
   },
   {
     name: "Filling Valve",
-    image: "2.png",
+    image: "2.webp",
     alt: "HPP filling valve for hydro tester machine, black cube-body valve with cylindrical top",
     description:
       "Our Filling Valve ensures safe and efficient water or fluid entry during hydro testing. It prevents air pockets and pressure surges, making it ideal for pipelines, pressure vessels, and industrial fluid systems.",
@@ -93,7 +93,7 @@ const products = [
   },
   {
     name: "Intensifier",
-    image: "3.png",
+    image: "3.webp",
     alt: "HPP hydraulic intensifier for hydro tester machine, tripod-mounted blue cylinder",
     description:
       "The intensifier boosts hydraulic pressure where extra force is required for testing, punching, pressing, or bursting applications without installing a large high-pressure pump.",
@@ -113,7 +113,7 @@ export default function HydroTesterMachinePage() {
     <section>
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -125,7 +125,7 @@ export default function HydroTesterMachinePage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -152,7 +152,7 @@ export default function HydroTesterMachinePage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
-              src="/products/hydro-tester-machine/main.png"
+              src="/products/hydro-tester-machine/main.webp"
               alt="HPP Hydro Tester Machine - hydraulic intensifier for pressure testing"
               width={700}
               height={560}

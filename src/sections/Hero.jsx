@@ -118,7 +118,7 @@ export default function HeroSection() {
               className="absolute inset-0 bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('./factoryimage.jpg')",
+                  "url('./factoryimage.webp')",
               }}
             />
             <div className="absolute inset-0 bg-black/65" />

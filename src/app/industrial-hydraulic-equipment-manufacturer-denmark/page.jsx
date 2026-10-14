@@ -9,37 +9,37 @@ const categories = [
   {
     label: "Hydraulic Power Pack",
     href: "/hydraulic-power-pack",
-    image: "/products/hydraulic-power-pack/main.png",
+    image: "/products/hydraulic-power-pack/main.webp",
   },
   {
     label: "Hydraulic Cylinder",
     href: "/hydraulic-cylinder",
-    image: "/products/hydraulic-cylinder/main.png",
+    image: "/products/hydraulic-cylinder/main.webp",
   },
   {
     label: "Water-Cooled Hydraulic Oil Cooler",
     href: "/water-cooled-oil-cooler",
-    image: "/products/water-cooled-oil-cooler/main.png",
+    image: "/products/water-cooled-oil-cooler/main.webp",
   },
   {
     label: "Industrial Hydraulic Jack",
     href: "/industrial-hydraulic-jack",
-    image: "/products/industrial-hydraulic-jack/main.png",
+    image: "/products/industrial-hydraulic-jack/main.webp",
   },
   {
     label: "Hydraulic Press",
     href: "/hydraulic-press",
-    image: "/products/hydraulic-press/main.png",
+    image: "/products/hydraulic-press/main.webp",
   },
   {
     label: "Hydraulic Paper Mill System",
     href: "/hydraulic-paper-mill-system",
-    image: "/products/hydraulic-paper-mill-system/main.png",
+    image: "/products/hydraulic-paper-mill-system/main.webp",
   },
   {
     label: "Hydraulic Rotary Unions",
     href: "/hydraulic-rotary-unions",
-    image: "/products/hydraulic-rotary-unions/main.png",
+    image: "/products/hydraulic-rotary-unions/main.webp",
   },
 ];
 
@@ -121,7 +121,7 @@ export default function IndustrialHydraulicEquipmentManufacturerDenmarkPage() {
       {/* Breadcrumb */}
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -133,7 +133,7 @@ export default function IndustrialHydraulicEquipmentManufacturerDenmarkPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}

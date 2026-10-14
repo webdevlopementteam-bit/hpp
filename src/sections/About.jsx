@@ -29,7 +29,7 @@ export default function AboutSection() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-6 lg:grid-cols-2 lg:px-10">
         {/* Left: image collage */}
         <div className="relative mx-auto h-[580px] w-full max-w-xl lg:mx-0">
-            <Image src="/about.png" alt="About Us" fill className="rounded-2xl object-cover shadow-lg" />
+            <Image src="/about.webp" alt="About Us" fill className="rounded-2xl object-cover shadow-lg" />
         </div>
 
         {/* Right: content */}

@@ -102,17 +102,17 @@ const contentKeyFeatures = [
 const products = [
   {
     name: "Worm Gear Screw Jack",
-    image: "1.png",
+    image: "1.webp",
     alt: "HPP worm gear screw jacks with dual lifting screws and gearbox base, set of three",
   },
   {
     name: "Motorized Worm Gear Screw Jack",
-    image: "2.png",
+    image: "2.webp",
     alt: "HPP motorized worm gear screw jack with mounted electric motor drive",
   },
   {
     name: "Upright Worm Gear Screw Jack",
-    image: "3.png",
+    image: "3.webp",
     alt: "HPP upright worm gear screw jack with flange base mount",
   },
 ];
@@ -124,7 +124,7 @@ export default function WormGearScrewJackPage() {
     <section>
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -136,7 +136,7 @@ export default function WormGearScrewJackPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -163,7 +163,7 @@ export default function WormGearScrewJackPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
-              src="/products/worm-gear-screw-jack/main.png"
+              src="/products/worm-gear-screw-jack/main.webp"
               alt="HPP Worm Gear Screw Jack - mechanical lifting actuator"
               width={700}
               height={560}

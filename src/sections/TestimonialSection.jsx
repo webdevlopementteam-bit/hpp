@@ -22,7 +22,7 @@ export default function TestimonialSection() {
             {/* Replace this div with your image */}
             <div className="flex h-[260px] w-[220px] items-center justify-center sm:h-[360px] sm:w-[300px] lg:h-[470px] lg:w-[380px]">
              <Image
-               src="/tmimage.png"
+               src="/tmimage.webp"
                alt="Testimonial"
                width={380}
                height={500}

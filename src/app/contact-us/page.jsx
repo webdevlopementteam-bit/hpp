@@ -65,7 +65,7 @@ export default function ContactPage() {
             {/* ================= HERO ================= */}
             <section className="relative h-[420px] overflow-hidden">
                 <Image
-                    src="/breadcrumb.jpg" // Replace with your banner
+                    src="/breadcrumb.webp" // Replace with your banner
                     alt="Contact Banner"
                     fill
                     priority
@@ -79,7 +79,7 @@ export default function ContactPage() {
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
                     {/* Logo */}
                     <Image
-                        src="/logo.png"
+                        src="/logo.webp"
                         alt="Logo"
                         width={80}
                         height={80}

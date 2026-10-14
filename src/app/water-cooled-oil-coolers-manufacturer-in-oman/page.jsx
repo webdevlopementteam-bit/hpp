@@ -97,32 +97,32 @@ const specs = [
 const products = [
   {
     name: "Water Cooler for Hydraulic Power Pack",
-    image: "1.png",
+    image: "1.webp",
     alt: "HPP water cooled heat exchanger, compact model with dual end flanges",
   },
   {
     name: "Water Cooler for Hydraulic Power Pack",
-    image: "2.png",
+    image: "2.webp",
     alt: "HPP water cooled heat exchanger, slim elongated model with dual end flanges",
   },
   {
     name: "Water Cooler for Test Bench",
-    image: "3.png",
+    image: "3.webp",
     alt: "HPP water cooled oil cooler for hydraulic test bench applications",
   },
   {
     name: "Water Cooler for Turbine",
-    image: "4.png",
+    image: "4.webp",
     alt: "HPP water cooled oil cooler engineered for turbine cooling applications",
   },
   {
     name: "Water Cooled Oil Cooler - Offline Cooling",
-    image: "5.png",
+    image: "5.webp",
     alt: "HPP water cooled oil cooler for offline cooling system applications",
   },
   {
     name: "Heat Exchanger for Power Plants",
-    image: "6.png",
+    image: "6.webp",
     alt: "HPP water cooled heat exchanger engineered for power plant applications",
   },
 ];
@@ -134,7 +134,7 @@ export default function WaterCooledOilCoolerPage() {
     <section>
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -146,7 +146,7 @@ export default function WaterCooledOilCoolerPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -173,7 +173,7 @@ export default function WaterCooledOilCoolerPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
-              src="/products/water-cooled-oil-cooler/main.png"
+              src="/products/water-cooled-oil-cooler/main.webp"
               alt="HPP Water Cooled Oil Cooler - industrial hydraulic heat exchanger"
               width={700}
               height={560}

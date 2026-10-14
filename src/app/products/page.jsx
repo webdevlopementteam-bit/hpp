@@ -8,57 +8,57 @@ const categories = [
   {
     label: "Hydraulic Power Pack",
     href: "/hydraulic-power-pack",
-    image: "/products/hydraulic-power-pack/main.png",
+    image: "/products/hydraulic-power-pack/main.webp",
   },
   {
     label: "Hydraulic Cylinder",
     href: "/hydraulic-cylinder-manufacturer",
-    image: "/products/hydraulic-cylinder/main.png",
+    image: "/products/hydraulic-cylinder/main.webp",
   },
   {
     label: "Pneumatic Cylinder",
     href: "/pneumatic-cylinder",
-    image: "/products/pneumatic-cylinder/main.png",
+    image: "/products/pneumatic-cylinder/main.webp",
   },
   {
     label: "Air Cooled Oil Cooler",
     href: "/air-cooled-oil-cooler-manufacturer",
-    image: "/products/air-cooled-oil-cooler/main.png",
+    image: "/products/air-cooled-oil-cooler/main.webp",
   },
   {
     label: "Water-Cooled Oil Cooler",
     href: "/water-cooled-oil-cooler-manufacturer",
-    image: "/products/water-cooled-oil-cooler/main.png",
+    image: "/products/water-cooled-oil-cooler/main.webp",
   },
   {
     label: "Worm Gear Screw Jack",
     href: "/worm-gear-screw-jack",
-    image: "/products/worm-gear-screw-jack/main.png",
+    image: "/products/worm-gear-screw-jack/main.webp",
   },
   {
     label: "Industrial Hydraulic Jack",
     href: "/industrial-hydraulic-jack-manufacturer",
-    image: "/products/industrial-hydraulic-jack/main.png",
+    image: "/products/industrial-hydraulic-jack/main.webp",
   },
   {
     label: "Hydro Tester Machine",
     href: "/hydro-tester-machine",
-    image: "/products/hydro-tester-machine/main.png",
+    image: "/products/hydro-tester-machine/main.webp",
   },
   {
     label: "Hydraulic Press",
     href: "/hydraulic-press",
-    image: "/products/hydraulic-press/main.png",
+    image: "/products/hydraulic-press/main.webp",
   },
   {
     label: "Hydraulic Paper Mill System",
     href: "/hydraulic-paper-mill-system",
-    image: "/products/hydraulic-paper-mill-system/main.png",
+    image: "/products/hydraulic-paper-mill-system/main.webp",
   },
   {
     label: "Hydraulic Rotary Unions",
     href: "/hydraulic-rotary-unions",
-    image: "/products/hydraulic-rotary-unions/main.png",
+    image: "/products/hydraulic-rotary-unions/main.webp",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function ProductsPage() {
       {/* Breadcrumb */}
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -82,7 +82,7 @@ export default function ProductsPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}

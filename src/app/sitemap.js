@@ -3,11 +3,11 @@ export const dynamic = "force-static";
 const BASE_URL = "https://www.aircooledoilcooler.com";
 
 const corePages = [
-  { path: "/", priority: 1.0, changeFrequency: "weekly" },
-  { path: "/about-us", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/products", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/global-presence", priority: 0.7, changeFrequency: "monthly" },
-  { path: "/contact-us", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/", priority: 1.0, changeFrequency: "daily" },
+  { path: "/about-us", priority: 0.8, changeFrequency: "daily" },
+  { path: "/products", priority: 0.8, changeFrequency: "daily" },
+  { path: "/global-presence", priority: 0.7, changeFrequency: "daily" },
+  { path: "/contact-us", priority: 0.7, changeFrequency: "daily" },
 ];
 
 const productPages = [
@@ -39,6 +39,12 @@ const regionalLandingPages = [
   "/worm-gear-screw-jack-manufacturer-in-oman",
   "/hydraulic-jack-suppliers-in-oman",
   "/hydraulic-cylinder-supplier-germany",
+  "/air-cooled-oil-cooler-manufacturer-north-america",
+  "/hydraulic-cylinders-manufacturer-united-states",
+  "/custom-hydraulic-cylinder-manufacturer-germany",
+  "/hydraulic-power-unit-supplier-sweden",
+  "/hydraulic-oil-cooler-manufacturer-denmark",
+  "/custom-oil-cooling-system-supplier-denmark",
 ];
 
 export default function sitemap() {
@@ -54,13 +60,13 @@ export default function sitemap() {
     ...productPages.map((path) => ({
       url: `${BASE_URL}${path}`,
       lastModified: now,
-      changeFrequency: "monthly",
+      changeFrequency: "daily",
       priority: 0.7,
     })),
     ...regionalLandingPages.map((path) => ({
       url: `${BASE_URL}${path}`,
       lastModified: now,
-      changeFrequency: "monthly",
+      changeFrequency: "daily",
       priority: 0.6,
     })),
   ];

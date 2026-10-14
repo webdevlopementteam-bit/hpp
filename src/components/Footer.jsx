@@ -14,12 +14,12 @@ const navLinks = [
 
 // Replace with your actual gallery images
 const galleryImages = [
-  "/footerimg1.jpg",
-  "/footerimg2.jpg",
-  "/footerimg3.jpg",
-  "/footerimg4.jpg",
-  "/footerimg5.jpg",
-  "/footerimg6.jpg",
+  "/footerimg1.webp",
+  "/footerimg2.webp",
+  "/footerimg3.webp",
+  "/footerimg4.webp",
+  "/footerimg5.webp",
+  "/footerimg6.webp",
 ];
 
 export default function Footer() {

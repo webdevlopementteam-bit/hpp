@@ -12,7 +12,7 @@ const solutions = [
     description:
       "High-performance oil coolers designed to maintain optimal oil temperature in hydraulic systems. These systems prevent overheating, improve efficiency, and extend machine life in continuous industrial operations.",
     bg: "bg-[#e2582a]",
-    image: "/images/solutions/hydraulic-oil-coolers.jpg",
+    image: "/images/solutions/hydraulic-oil-coolers.webp",
   },
   {
     icon: KeyRound,
@@ -20,7 +20,7 @@ const solutions = [
     description:
       "Advanced hydraulic power packs and cooling systems engineered for heavy-duty applications. They ensure stable performance, reduced heat generation, and enhanced reliability in demanding industrial environments.",
     bg: "bg-[#1e2a4a]",
-    image: "/images/solutions/power-cooling-systems.jpg",
+    image: "/images/solutions/power-cooling-systems.webp",
   },
   {
     icon: Building2,
@@ -28,18 +28,18 @@ const solutions = [
     description:
       "Efficient heat exchangers built for high thermal load industries. These systems maintain temperature balance, increase productivity, and ensure long-term operational safety.",
     bg: "bg-[#e2582a]",
-    image: "/images/solutions/industrial-heat-exchange.jpg",
+    image: "/images/solutions/industrial-heat-exchange.webp",
   },
 ];
 
 // Replace src with your own logo assets in /public/images/logos/
 const clientLogos = [
-  { name: "Sona", src: "/sona.png" },
-  { name: "Jindal Steel & Power", src: "/jindal.png" },
-  { name: "Honda", src: "/honda.png" },
-  { name: "HK Cement", src: "/jk-cement.png" },
-  { name: "ISGEC", src: "/isgec.png" },
-  { name: "BHEL", src: "/bhel.png" },
+  { name: "Sona", src: "/sona.webp" },
+  { name: "Jindal Steel & Power", src: "/jindal.webp" },
+  { name: "Honda", src: "/honda.webp" },
+  { name: "HK Cement", src: "/jk-cement.webp" },
+  { name: "ISGEC", src: "/isgec.webp" },
+  { name: "BHEL", src: "/bhel.webp" },
 ];
 
 export default function SolutionsSection() {
@@ -125,7 +125,7 @@ export default function SolutionsSection() {
     </div>
 <div className="flex  w-full items-center justify-center mt-3">
   <img
-    src="/13.png"
+    src="/13.webp"
     alt="Description of image"
     className="h-[450px] max-w-full object-contain"
   />

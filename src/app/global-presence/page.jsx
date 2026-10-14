@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ChevronRight, Section } from "lucide-react";
 export default function Breadcrumb({
   title = "Global Presence",
-  background = "/breadcrumb.jpg",
+  background = "/breadcrumb.webp",
 }) {
   return (
     <section>
@@ -39,7 +39,7 @@ export default function Breadcrumb({
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
         {/* Logo */}
         <Image
-          src="/logo.png"
+          src="/logo.webp"
           alt="Logo"
           width={75}
           height={75}
@@ -74,7 +74,7 @@ export default function Breadcrumb({
     </div>
 
     <div className ="flex justify-center items-center">
-    <Image src="/globe.jpg" alt="World map showing HPP's global presence" width={950}
+    <Image src="/globe.webp" alt="World map showing HPP's global presence" width={950}
           height={950}/>
 
     </div>
@@ -99,47 +99,47 @@ export default function Breadcrumb({
     {[
       {
         country: "Nepal",
-        flag: "/nepal.jpg",
+        flag: "/nepal.webp",
       },
       {
         country: "Vietnam",
-        flag: "/vietnam.jpg",
+        flag: "/vietnam.webp",
       },
       {
         country: "Sri Lanka",
-        flag: "/srilanka.jpg",
+        flag: "/srilanka.webp",
       },
       {
         country: "Australia",
-        flag: "/australia.jpg",
+        flag: "/australia.webp",
       },
       {
         country: "Kazakhstan",
-        flag: "/kazakhstan.jpg",
+        flag: "/kazakhstan.webp",
       },
       {
         country: "Ukraine",
-        flag: "/ukraine.jpg",
+        flag: "/ukraine.webp",
       },
       {
         country: "Morocco",
-        flag: "/morocco.jpg",
+        flag: "/morocco.webp",
       },
       {
         country: "Nigeria",
-        flag: "/nigeria.jpg",
+        flag: "/nigeria.webp",
       },
       {
         country: "Saudi Arabia",
-        flag: "/saudiarabia.jpg",
+        flag: "/saudiarabia.webp",
       },
       {
         country: "Qatar",
-        flag: "/qatar.jpg",
+        flag: "/qatar.webp",
       },
       {
         country: "Oman",
-        flag: "/oman.jpg",
+        flag: "/oman.webp",
       },
     ].map((item, index) => (
       <div

@@ -67,12 +67,12 @@ const specs = [
 ];
 
 const products = [
-  { name: "Pneumatic Cylinder - Rear Flange with Fork", image: "1.png" },
-  { name: "Pneumatic Cylinder - Rear Clevis", image: "2.png" },
-  { name: "Pneumatic Cylinder - Tie Rod Design with Clevis", image: "3.png" },
-  { name: "Pneumatic Cylinder - Center Trunnion with Clevis", image: "4.png" },
-  { name: "Pneumatic Cylinder - Rear Clevis with Eye", image: "5.png" },
-  { name: "Pneumatic Cylinder - Rear Clevis with Eye Welded Design", image: "6.png" },
+  { name: "Pneumatic Cylinder - Rear Flange with Fork", image: "1.webp" },
+  { name: "Pneumatic Cylinder - Rear Clevis", image: "2.webp" },
+  { name: "Pneumatic Cylinder - Tie Rod Design with Clevis", image: "3.webp" },
+  { name: "Pneumatic Cylinder - Center Trunnion with Clevis", image: "4.webp" },
+  { name: "Pneumatic Cylinder - Rear Clevis with Eye", image: "5.webp" },
+  { name: "Pneumatic Cylinder - Rear Clevis with Eye Welded Design", image: "6.webp" },
 ];
 
 export default function PneumaticCylinderPage() {
@@ -83,7 +83,7 @@ export default function PneumaticCylinderPage() {
       {/* Breadcrumb */}
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -95,7 +95,7 @@ export default function PneumaticCylinderPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -123,7 +123,7 @@ export default function PneumaticCylinderPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-10">
             <Image
-              src="/products/pneumatic-cylinder/main.png"
+              src="/products/pneumatic-cylinder/main.webp"
               alt="HPP Pneumatic Cylinder - industrial pneumatic actuator"
               width={700}
               height={560}

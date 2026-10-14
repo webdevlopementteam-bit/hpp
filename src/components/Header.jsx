@@ -39,7 +39,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="/" className="flex flex-shrink-0 items-center gap-3">
           {/* Sun burst icon */}
-          <img src="/logo.png" alt="HPP - Hydraulic and Pneumatic Products logo" className="h-10 w-full"/>
+          <img src="/logo.webp" alt="HPP - Hydraulic and Pneumatic Products logo" className="h-10 w-full"/>
          
          
           <div className="leading-tight">

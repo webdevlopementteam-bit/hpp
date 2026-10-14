@@ -7,7 +7,7 @@ import AboutSection from "@/sections/About";
 
 export default function BreadcrumbSection({
   title = "About Us",
-  image = "/breadcrumb.jpg", // Put your image in public/images/
+  image = "/breadcrumb.webp", // Put your image in public/images/
 }) {
   return (
     <section>
@@ -31,7 +31,7 @@ export default function BreadcrumbSection({
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
         {/* Logo */}
         <Image
-          src="/logo.png" // Replace with your logo
+          src="/logo.webp" // Replace with your logo
           alt="Logo"
           width={70}
           height={70}
@@ -121,27 +121,27 @@ export default function BreadcrumbSection({
   {[
     {
       title: "Manufacturing & Automation",
-      image: "/img1.png",
+      image: "/img1.webp",
     },
     {
       title: "Construction & Infrastructure",
-      image: "/img2.png",
+      image: "/img2.webp",
     },
     {
       title: "Mining & Heavy Engineering",
-      image: "/img3.png",
+      image: "/img3.webp",
     },
     {
       title: "Agriculture & Earthmoving",
-      image: "/img4.png",
+      image: "/img4.webp",
     },
     {
       title: "Industrial Processing Plants",
-      image: "/img5.png",
+      image: "/img5.webp",
     },
     {
       title: "Energy & Utilities",
-      image: "/img6.png",
+      image: "/img6.webp",
     },
   ].map((item, index) => (
     <div

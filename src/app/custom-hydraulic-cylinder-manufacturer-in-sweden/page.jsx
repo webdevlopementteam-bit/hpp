@@ -6,12 +6,12 @@ import { ChevronRight, Check, ArrowUpRight } from "lucide-react";
 import FAQAccordion from "@/components/FAQAccordion";
 
 const products = [
-  { name: "Hydraulic Cylinder - Front Trunnion", image: "1.png" },
-  { name: "Hydraulic Cylinder - Front Flange Mounting", image: "2.png" },
-  { name: "Hydraulic Cylinder - Rear Clevis (Double Eye)", image: "3.png" },
-  { name: "Hydraulic Cylinder - Customize", image: "4.png" },
-  { name: "Hydraulic Cylinder -for Hydraulic Press", image: "5.png" },
-  { name: "Hydraulic Cylinder -Welded Design Round Flange", image: "6.png" },
+  { name: "Hydraulic Cylinder - Front Trunnion", image: "1.webp" },
+  { name: "Hydraulic Cylinder - Front Flange Mounting", image: "2.webp" },
+  { name: "Hydraulic Cylinder - Rear Clevis (Double Eye)", image: "3.webp" },
+  { name: "Hydraulic Cylinder - Customize", image: "4.webp" },
+  { name: "Hydraulic Cylinder -for Hydraulic Press", image: "5.webp" },
+  { name: "Hydraulic Cylinder -Welded Design Round Flange", image: "6.webp" },
 ];
 
 const customEngineering = [
@@ -89,7 +89,7 @@ export default function CustomHydraulicCylinderManufacturerInSwedenPage() {
       {/* Breadcrumb */}
       <div className="relative h-[340px] w-full overflow-hidden md:h-[420px]">
         <Image
-          src="/breadcrumb.jpg"
+          src="/breadcrumb.webp"
           alt={title}
           fill
           priority
@@ -101,7 +101,7 @@ export default function CustomHydraulicCylinderManufacturerInSwedenPage() {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={70}
             height={70}
@@ -131,7 +131,7 @@ export default function CustomHydraulicCylinderManufacturerInSwedenPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-md bg-gray-100 p-8 md:p-10">
             <Image
-              src="/products/hydraulic-cylinder/main.png"
+              src="/products/hydraulic-cylinder/main.webp"
               alt="HPP Hydraulic Cylinder - industrial hydraulic cylinder with chrome-plated rod"
               width={700}
               height={560}
