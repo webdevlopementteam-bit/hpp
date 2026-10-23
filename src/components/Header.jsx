@@ -35,18 +35,18 @@ export default function Navbar() {
 
   return (
     <header className="w-full bg-white">
-      <nav className="mx-auto flex max-w-[1600px] items-center justify-between gap-6 px-6 py-4 lg:px-10">
+      <nav className="mx-auto flex max-w-[1600px] items-center justify-between gap-3 px-4 py-4 sm:gap-6 sm:px-6 lg:px-10">
         {/* Logo */}
-        <a href="/" className="flex flex-shrink-0 items-center gap-3">
+        <a href="/" className="flex min-w-0 items-center gap-2 sm:gap-3">
           {/* Sun burst icon */}
-          <img src="/logo.webp" alt="HPP - Hydraulic and Pneumatic Products logo" className="h-10 w-full"/>
+          <img src="/logo.webp" alt="HPP - Hydraulic and Pneumatic Products logo" className="h-10 w-auto flex-shrink-0"/>
          
          
-          <div className="leading-tight">
+          <div className="min-w-0 leading-tight">
             <div className="font-serif text-2xl font-bold tracking-wide text-[#1e2a4a]">
               HPP
             </div>
-            <div className="whitespace-nowrap text-xs font-bold tracking-wide text-[#1e2a4a]">
+            <div className="text-[10px] font-bold tracking-wide text-[#1e2a4a] sm:whitespace-nowrap sm:text-xs">
               HYDRAULIC &amp; PNEUMATIC PRODUCTS
             </div>
           </div>
@@ -134,7 +134,7 @@ export default function Navbar() {
         <button
           aria-label="Menu"
           onClick={() => setMobileMenuOpen((open) => !open)}
-          className="text-[#1e2a4a] lg:hidden"
+          className="flex-shrink-0 text-[#1e2a4a] lg:hidden"
         >
           {mobileMenuOpen ? (
             <X className="h-7 w-7" />
