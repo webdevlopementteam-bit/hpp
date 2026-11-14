@@ -14,7 +14,7 @@ const topProducts = [
   },
   {
     label: "Hydraulic Cylinder",
-    href: "/hydraulic-cylinder",
+    href: "/hydraulic-cylinder-manufacturer",
     image: "/products/hydraulic-cylinder/main.webp",
   },
   {
@@ -24,12 +24,12 @@ const topProducts = [
   },
   {
     label: "Air Cooled Oil Cooler",
-    href: "/air-cooled-oil-cooler",
+    href: "/air-cooled-oil-cooler-manufacturer",
     image: "/products/air-cooled-oil-cooler/main.webp",
   },
   {
     label: "Water-Cooled Oil Cooler",
-    href: "/water-cooled-oil-cooler",
+    href: "/water-cooled-oil-cooler-manufacturer",
     image: "/products/water-cooled-oil-cooler/main.webp",
   },
   {
@@ -39,7 +39,7 @@ const topProducts = [
   },
   {
     label: "Industrial Hydraulic Jack",
-    href: "/industrial-hydraulic-jack",
+    href: "/industrial-hydraulic-jack-manufacturer",
     image: "/products/industrial-hydraulic-jack/main.webp",
   },
   {
@@ -58,7 +58,8 @@ export default function TopProducts() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-extrabold uppercase tracking-wide text-[#1e2a4a] sm:text-4xl">
-            Top <span className="text-[#e2582a]">Products</span>
+            Hydraulic &amp; Pneumatic Products{" "}
+            <span className="text-[#e2582a]">We Manufacture</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
             Explore our most trusted hydraulic and pneumatic solutions,

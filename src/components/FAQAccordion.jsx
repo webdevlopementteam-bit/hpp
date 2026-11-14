@@ -3,7 +3,12 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
-export default function FAQAccordion({ faqs, heading, includeSchema = true }) {
+export default function FAQAccordion({
+  faqs,
+  heading,
+  includeSchema = true,
+  questionAs: QuestionTag = "span",
+}) {
   const [openIndex, setOpenIndex] = useState(0);
 
   const faqSchema = {
@@ -42,19 +47,22 @@ export default function FAQAccordion({ faqs, heading, includeSchema = true }) {
               key={faq.question}
               className="overflow-hidden rounded-md border border-gray-200"
             >
-              <button
-                onClick={() => setOpenIndex(isOpen ? -1 : index)}
-                className="flex w-full items-center justify-between gap-4 bg-white px-6 py-5 text-left"
-              >
-                <span className="text-lg font-semibold text-[#0d1b3f]">
-                  {faq.question}
-                </span>
-                <ChevronDown
-                  className={`h-5 w-5 flex-shrink-0 text-[#f35a3b] transition-transform duration-300 ${
-                    isOpen ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
+              <QuestionTag className="m-0 block">
+                <button
+                  onClick={() => setOpenIndex(isOpen ? -1 : index)}
+                  aria-expanded={isOpen}
+                  className="flex w-full items-center justify-between gap-4 bg-white px-6 py-5 text-left"
+                >
+                  <span className="text-lg font-semibold text-[#0d1b3f]">
+                    {faq.question}
+                  </span>
+                  <ChevronDown
+                    className={`h-5 w-5 flex-shrink-0 text-[#f35a3b] transition-transform duration-300 ${
+                      isOpen ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+              </QuestionTag>
 
               {isOpen && (
                 <div className="border-t border-gray-200 bg-gray-50 px-6 py-5">

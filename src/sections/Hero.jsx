@@ -1,95 +1,42 @@
 "use client";
 
-import { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
-import { ArrowRight, ArrowLeft } from "lucide-react";
-
+import { ArrowRight, Phone } from "lucide-react";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const HERO_FONT = "'Baloo 2', 'Quicksand', ui-rounded, sans-serif";
-
-const slides = [
-  {
-    heading: "Complete Hydraulic & Pneumatic Engineering Solutions",
-    description:
-      "We specialize in manufacturing high-quality hydraulic systems including power packs, cylinders, oil coolers, and presses — customized to meet the needs of modern industries like manufacturing, construction, and automation.",
-  },
-  {
-    heading: "Powering Industries with Advanced Hydraulic Solutions",
-    description:
-      "From Hydraulic Power Packs to Oil Coolers, Cylinders & Press Machines — we deliver reliable engineering solutions that enhance productivity and ensure long-lasting performance in demanding industrial environments.",
-  },
-  {
-    heading: "Engineering Excellence in Every Component We Build",
-    description:
-      "Our precision-built hydraulic and pneumatic products are trusted across sectors for their durability, efficiency, and consistent performance under the toughest operating conditions.",
-  },
-];
 
 const productList = [
   {
     number: "01",
     label: "Air/Water Cooled Oil Cooler",
-    href: "/products/air-water-cooled-oil-cooler",
+    href: "/air-cooled-oil-cooler-manufacturer",
   },
   {
     number: "02",
     label: "Hydraulic Power Pack",
-    href: "/products/hydraulic-power-pack",
+    href: "/hydraulic-power-pack",
   },
   {
     number: "03",
     label: "Hydraulic Cylinder",
-    href: "/products/hydraulic-cylinder",
+    href: "/hydraulic-cylinder-manufacturer",
   },
   {
     number: "04",
     label: "Worm Gear Screw Jack",
-    href: "/products/worm-gear-screw-jack",
+    href: "/worm-gear-screw-jack",
   },
 ];
 
-const AUTOPLAY_MS = 5000;
+const heroStats = [
+  { value: "12+", label: "Years Experience" },
+  { value: "11,000+", label: "Installations" },
+  { value: "1000+", label: "Industrial Clients" },
+  { value: "20+", label: "Product Variants" },
+];
 
 export default function HeroSection() {
-  const [activeSlide, setActiveSlide] = useState(0);
-  const [fade, setFade] = useState(true);
-  const timerRef = useRef(null);
-
-  const goToSlide = useCallback((index) => {
-    setFade(false);
-    setTimeout(() => {
-      setActiveSlide(index);
-      setFade(true);
-    }, 250);
-  }, []);
-
-  const nextSlide = useCallback(() => {
-    goToSlide((activeSlide + 1) % slides.length);
-  }, [activeSlide, goToSlide]);
-
-  const prevSlide = useCallback(() => {
-    goToSlide((activeSlide - 1 + slides.length) % slides.length);
-  }, [activeSlide, goToSlide]);
-
-  useEffect(() => {
-    timerRef.current = setInterval(() => {
-      setActiveSlide((prev) => {
-        const next = (prev + 1) % slides.length;
-        return next;
-      });
-    }, AUTOPLAY_MS);
-    return () => clearInterval(timerRef.current);
-  }, []);
-
-  // handle fade transition whenever activeSlide changes from autoplay
-  useEffect(() => {
-    setFade(false);
-    const t = setTimeout(() => setFade(true), 50);
-    return () => clearTimeout(t);
-  }, [activeSlide]);
-
-  const slide = slides[activeSlide];
-
   return (
     <section
       className="relative w-full bg-white"
@@ -116,48 +63,71 @@ export default function HeroSection() {
             {/* Background image + overlay */}
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{
-                backgroundImage:
-                  "url('./factoryimage.webp')",
-              }}
+              style={{ backgroundImage: "url('/factoryimage.webp')" }}
             />
             <div className="absolute inset-0 bg-black/65" />
 
-            {/* Left: rotating content */}
-            <div className="relative z-10 flex w-full flex-col justify-center px-8 py-16 sm:px-14 lg:w-2/3 lg:px-16">
-              <div
-                className={`max-w-2xl transition-opacity duration-500 ease-in-out ${
-                  fade ? "opacity-100" : "opacity-0"
-                }`}
-              >
+            {/* Left: content */}
+            <div className="relative z-10 flex w-full flex-col justify-center px-6 py-16 sm:px-14 lg:w-2/3 lg:px-16">
+              <div className="max-w-2xl">
                 <h1 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-                  {slide.heading}
+                  Air Cooled Oil Cooler Manufacturer in Delhi, India
                 </h1>
                 <p className="mt-6 max-w-xl text-sm leading-relaxed text-gray-200 sm:text-base">
-                  {slide.description}
+                  HPP (Hydraulic &amp; Pneumatic Products) is a Delhi-based
+                  manufacturer of{" "}
+                  <strong className="font-bold text-white">
+                    air-cooled oil coolers, water-cooled oil coolers, and
+                    complete hydraulic systems
+                  </strong>
+                  . From our manufacturing unit in Bawana Industrial Area, we
+                  design and build hydraulic oil coolers that keep your power
+                  packs, presses, and machines running at a safe, steady
+                  temperature. With 12+ years of experience and 11,000+
+                  installations across steel, cement, automobile, and
+                  engineering plants, we help Indian industry cut downtime
+                  caused by overheating hydraulic oil.
                 </p>
-                <a
-                  href="/about"
-                  className="mt-8 inline-flex items-center gap-2 bg-[#e2582a] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#c9481f]"
-                >
-                  Read More
-                  <ArrowRight className="h-4 w-4" />
-                </a>
+
+                {/* Buttons */}
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <Link
+                    href="/contact-us"
+                    className="inline-flex items-center gap-2 bg-[#e2582a] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#c9481f]"
+                  >
+                    Get a Quote
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                  <a
+                    href="tel:+919871456545"
+                    className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+                  >
+                    <Phone className="h-4 w-4" />
+                    Call +91-9871456545
+                  </a>
+                  <a
+                    href="https://wa.me/919871456545"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1ebe57]"
+                  >
+                    <IoLogoWhatsapp className="h-4 w-4" />
+                    WhatsApp Us
+                  </a>
+                </div>
               </div>
 
-              {/* Slide indicators */}
-              <div className="mt-12 flex gap-2">
-                {slides.map((_, i) => (
-                  <button
-                    key={i}
-                    aria-label={`Go to slide ${i + 1}`}
-                    onClick={() => goToSlide(i)}
-                    className={`h-1.5 rounded-full transition-all duration-300 ${
-                      i === activeSlide
-                        ? "w-8 bg-[#e2582a]"
-                        : "w-3 bg-white/40 hover:bg-white/60"
-                    }`}
-                  />
+              {/* Stats strip */}
+              <div className="mt-10 grid max-w-2xl grid-cols-2 gap-6 border-t border-white/20 pt-6 sm:grid-cols-4">
+                {heroStats.map((s) => (
+                  <div key={s.label}>
+                    <div className="text-2xl font-extrabold text-[#e2582a] sm:text-3xl">
+                      {s.value}
+                    </div>
+                    <div className="text-xs font-medium text-gray-200 sm:text-sm">
+                      {s.label}
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
@@ -181,24 +151,6 @@ export default function HeroSection() {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Prev / Next arrows */}
-            <div className="absolute bottom-6 right-6 z-20 flex gap-3">
-              <button
-                aria-label="Previous slide"
-                onClick={prevSlide}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/40 text-white transition-colors hover:bg-white/10"
-              >
-                <ArrowLeft className="h-4 w-4" />
-              </button>
-              <button
-                aria-label="Next slide"
-                onClick={nextSlide}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/40 text-white transition-colors hover:bg-white/10"
-              >
-                <ArrowRight className="h-4 w-4" />
-              </button>
             </div>
           </div>
         </div>

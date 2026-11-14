@@ -7,7 +7,7 @@ const SITE_FONT = "'Baloo 2', 'Quicksand', ui-rounded, sans-serif";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
+  { label: "About Us", href: "/about-us" },
   { label: "Products", href: "/products" },
   { label: "Global Presence", href: "/global-presence" },
 ];

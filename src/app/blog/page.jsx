@@ -7,6 +7,14 @@ import { ChevronRight, ArrowUpRight } from "lucide-react";
 const posts = [
   {
     title:
+      "How German OEMs Source Custom Hydraulic Cylinders, Oil Coolers and Screw Jacks: 2027 Buyer's Guide",
+    excerpt:
+      "Sourcing custom hydraulic cylinders, air & water cooled oil coolers and screw jacks for Germany? 2027 buyer guide + free RFQ checklist for OEMs.",
+    href: "/blog/hydraulic-components-supplier-germany",
+    image: "/factoryimage.webp",
+  },
+  {
+    title:
       "Affordable Industrial Hydraulic Jack Manufacturers for Bulk Orders in Delhi",
     excerpt:
       "Looking for an industrial hydraulic jack manufacturer in Delhi? HPP offers affordable, durable, and high-quality hydraulic jacks for bulk orders.",

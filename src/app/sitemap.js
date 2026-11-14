@@ -8,6 +8,17 @@ const corePages = [
   { path: "/products", priority: 0.8, changeFrequency: "daily" },
   { path: "/global-presence", priority: 0.7, changeFrequency: "daily" },
   { path: "/contact-us", priority: 0.7, changeFrequency: "daily" },
+  { path: "/blog", priority: 0.7, changeFrequency: "daily" },
+  {
+    path: "/blog/affordable-industrial-hydraulic-jack-manufacturers-for-bulk-orders-in-delhi",
+    priority: 0.6,
+    changeFrequency: "weekly",
+  },
+  {
+    path: "/blog/hydraulic-components-supplier-germany",
+    priority: 0.6,
+    changeFrequency: "weekly",
+  },
 ];
 
 const productPages = [

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Phone, Mail } from "lucide-react";
+import { submitLead } from "@/lib/submitLead";
 
 const SITE_FONT = "'Baloo 2', 'Quicksand', ui-rounded, sans-serif";
 
@@ -38,13 +39,10 @@ export default function ContactSection() {
     e.preventDefault();
     setStatus("sending");
     try {
-      // Replace with your real API route / email service
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (!res.ok) throw new Error("Failed to send");
+      const data = new FormData();
+      Object.entries(form).forEach(([k, v]) => data.append(k, v));
+      const ok = await submitLead(data);
+      if (!ok) throw new Error("Failed to send");
       setStatus("sent");
       setForm({ name: "", email: "", subject: "", message: "" });
     } catch (err) {
