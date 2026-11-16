@@ -1,29 +1,34 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { X } from "lucide-react";
 import { submitLead } from "@/lib/submitLead";
 
 const SITE_FONT = "'Baloo 2', 'Quicksand', ui-rounded, sans-serif";
-const STORAGE_KEY = "hpp_lead_popup_closed";
+const STORAGE_KEY = "hpp_lead_popup_submitted";
 const OPEN_DELAY_MS = 8000;
 
 export default function LeadPopup() {
   const router = useRouter();
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
 
+  // Opens on every page (after a short delay) — except the thank-you page,
+  // and not again once the visitor has submitted the form in this session.
   useEffect(() => {
-    let dismissed = false;
+    setOpen(false);
+    if (pathname === "/thank-you") return;
+    let submitted = false;
     try {
-      dismissed = sessionStorage.getItem(STORAGE_KEY) === "1";
+      submitted = sessionStorage.getItem(STORAGE_KEY) === "1";
     } catch {}
-    if (dismissed) return;
+    if (submitted) return;
     const t = setTimeout(() => setOpen(true), OPEN_DELAY_MS);
     return () => clearTimeout(t);
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     if (!open) return;
@@ -34,6 +39,9 @@ export default function LeadPopup() {
 
   function close() {
     setOpen(false);
+  }
+
+  function markSubmitted() {
     try {
       sessionStorage.setItem(STORAGE_KEY, "1");
     } catch {}
@@ -50,6 +58,7 @@ export default function LeadPopup() {
       const ok = await submitLead(data);
       if (ok) {
         form.reset();
+        markSubmitted();
         close();
         router.push("/thank-you");
       } else {

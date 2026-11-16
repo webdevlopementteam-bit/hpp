@@ -4,6 +4,7 @@ import Script from "next/script";
 import Navbar from "@/components/Header";
 import { Baloo_2 } from "next/font/google";
 import Footer from "@/components/Footer";
+import LeadPopup from "@/components/LeadPopup";
 const baloo = Baloo_2({ subsets: ["latin"], weight: ["400","500","600","700","800"] });
 // then: <section className={baloo.className}>
 const geistSans = Geist({
@@ -50,7 +51,7 @@ export default function RootLayout({ children }) {
             );
           }
         `}
-        </Script><Footer/></body>
+        </Script><Footer/><LeadPopup/></body>
     </html>
   );
 }

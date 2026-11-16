@@ -11,7 +11,6 @@ import TextMarquee from "@/sections/TextMarquee";
 import TopProducts from "@/sections/TopProducts";
 import WhyChooseSection from "@/sections/WhyChooseSection";
 import GetQuoteSection from "@/sections/GetQuoteSection";
-import LeadPopup from "@/components/LeadPopup";
 import { homeFaqs } from "@/data/homeFaqs";
 
 const SITE = "https://www.aircooledoilcooler.com";
@@ -213,7 +212,6 @@ export default function Home() {
       <ProcessSection />
       <FAQSection />
       <GetQuoteSection />
-      <LeadPopup />
     </>
   );
 }
