@@ -4,6 +4,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Search, ArrowUpRight, Phone, Menu, X } from "lucide-react";
 import Image from "next/image";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const navLinks = [
   { label: "HOME", href: "/" },
@@ -118,6 +119,7 @@ export default function Navbar() {
 
         {/* Right side: Get In Touch + Search */}
         <div className="hidden flex-shrink-0 items-center gap-6 lg:flex">
+          <LanguageSwitcher />
           <a
             href="/contact-us"
             className="flex items-center gap-1 text-[15px] font-bold tracking-wide text-[#1e2a4a] underline underline-offset-4 hover:text-[#e2582a]"
@@ -130,18 +132,21 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile menu button */}
-        <button
-          aria-label="Menu"
-          onClick={() => setMobileMenuOpen((open) => !open)}
-          className="flex-shrink-0 text-[#1e2a4a] lg:hidden"
-        >
-          {mobileMenuOpen ? (
-            <X className="h-7 w-7" />
-          ) : (
-            <Menu className="h-7 w-7" />
-          )}
-        </button>
+        {/* Mobile: language switcher + menu button */}
+        <div className="flex flex-shrink-0 items-center gap-3 lg:hidden">
+          <LanguageSwitcher compact />
+          <button
+            aria-label="Menu"
+            onClick={() => setMobileMenuOpen((open) => !open)}
+            className="flex-shrink-0 text-[#1e2a4a]"
+          >
+            {mobileMenuOpen ? (
+              <X className="h-7 w-7" />
+            ) : (
+              <Menu className="h-7 w-7" />
+            )}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu panel */}

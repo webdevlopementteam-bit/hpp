@@ -35,23 +35,29 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col"><Navbar/>{children} <Script
-          id="google-translate"
-          strategy="afterInteractive"
-        >
+      <body className="min-h-full flex flex-col"><Navbar/>{children}
+        {/* Hidden Google Translate widget — driven by the flag dropdown in the header (LanguageSwitcher) */}
+        <div id="google_translate_element" className="hidden" aria-hidden="true" />
+        <Script id="google-translate-init" strategy="afterInteractive">
           {`
           function googleTranslateElementInit() {
             new google.translate.TranslateElement(
               {
                 pageLanguage: 'en',
-                includedLanguages:'en,hi,de,da,sv',
-                autoDisplay:false
+                includedLanguages: 'en,de,sv,da,ar',
+                autoDisplay: false
               },
               'google_translate_element'
             );
           }
         `}
-        </Script><Footer/><LeadPopup/></body>
+        </Script>
+        <Script
+          id="google-translate-script"
+          strategy="afterInteractive"
+          src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+        />
+        <Footer/><LeadPopup/></body>
     </html>
   );
 }

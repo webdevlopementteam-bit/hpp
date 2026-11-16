@@ -19,3 +19,23 @@ body {
 
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ---- Google Translate: hide Google's own toolbar/banner & tooltips ---- */
+.goog-te-banner-frame,
+iframe.skiptranslate,
+.skiptranslate > iframe,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+.goog-tooltip,
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  display: none !important;
+}
+body {
+  top: 0 !important;
+}
+font.goog-text-highlight,
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
