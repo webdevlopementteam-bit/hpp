@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, Check, ArrowUpRight } from "lucide-react";
+import { ChevronRight, ArrowUpRight } from "lucide-react";
 import FAQAccordion from "@/components/FAQAccordion";
 
 const products = [
@@ -36,21 +36,6 @@ const products = [
     image: "6.webp",
     alt: "HPP water cooled heat exchanger engineered for power plant applications",
   },
-];
-
-const technicalCapabilities = [
-  "Flow rates from 3 to 700 litres",
-  "Heat rejection capacity up to 150,000 Kcal/h",
-  "Available diameters from 80mm to 750mm",
-  "Lengths ranging from 300mm to 10,000mm",
-];
-
-const applications = [
-  "Hydraulic power packs requiring stable oil temperature during continuous operation",
-  "Test benches where accurate thermal control supports reliable performance testing",
-  "Turbines and power plant heat exchangers supporting large-scale energy infrastructure",
-  "Offline cooling systems for dedicated machine cooling without disrupting the main hydraulic circuit",
-  "Heavy manufacturing and industrial automation systems common across Germany's engineering sector",
 ];
 
 const faqs = [
@@ -175,7 +160,7 @@ Top Custom Water Cooled Hydraulic Oil Cooler Supplier in Germany
                 consists of a heat exchanger that uses water as the cooling
                 medium for stable, efficient temperature control. HPP, an{" "}
                 <Link
-                  href="/water-cooled-oil-cooler"
+                  href="/water-cooled-oil-cooler-manufacturer"
                   className="font-semibold text-[#f35a3b] hover:underline"
                 >
                  Custom Water Cooled Hydraulic Oil Cooler Supplier in Germany
@@ -247,129 +232,200 @@ Top Custom Water Cooled Hydraulic Oil Cooler Supplier in Germany
       </div>
 
       {/* Content */}
-      <div className="bg-[#f9fafb] px-6 py-16 md:py-20">
-        <div className="mx-auto max-w-5xl">
-          <h3 className="mb-6 text-3xl font-bold text-[#0d1b3f] md:text-4xl">
-Custom Water Cooled Hydraulic Oil Cooler Supplier in Germany          </h3>
+      <div className="bg-white px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl space-y-6 text-lg leading-8 text-gray-600">
+          <p>
+            In industrial environments, excessive oil temperature can affect
+            machine efficiency, reduce lubricant life, and increase equipment
+            maintenance requirements. HPP offers application-specific{" "}
+            <strong className="text-[#0d1b3f]">water-cooled oil cooler</strong>{" "}
+            solutions that help remove excess heat and maintain reliable
+            equipment performance. Our focus on product quality, engineering
+            precision, and customised cooling requirements makes us a
+            dependable sourcing partner for industrial businesses in Germany.
+          </p>
 
-          <div className="space-y-6 text-lg leading-8 text-gray-600">
-            <p>
-              HPP (Hydraulic and Pneumatic Products) is a Custom Water Cooled Hydraulic Oil Cooler Supplier
-               serving Germany,
-              engineering high-efficiency heat exchangers that use water as
-              the cooling medium to maintain consistent oil temperature in
-              hydraulic, engine oil, and transmission systems. As German
-              industries increasingly diversify their sourcing strategies
-              for critical thermal management components, HPP has
-              positioned itself as a dependable, quality-certified
-              manufacturing partner for the German market.
-            </p>
-            <p>
-              By ensuring efficient heat transfer even under demanding
-              operating conditions, our water-cooled oil coolers prevent
-              overheating, lubricant breakdown, and premature component
-              damage—issues that directly impact machine uptime and
-              lifecycle costs in Germany's precision-driven manufacturing
-              and heavy engineering sectors. As an ISO-certified
-              manufacturer, every unit we produce follows structured,
-              quality-controlled processes from raw material selection
-              through final testing, ensuring consistent dimensional
-              accuracy and thermal performance that German industrial
-              buyers can rely on.
-            </p>
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Custom Water Cooled Oil Coolers for Industrial Applications
+          </h2>
+          <p>
+            Different industrial machines have different cooling requirements.
+            Factors such as operating pressure, oil flow, heat generation, and
+            available installation space play an important role in selecting
+            the right oil cooler.
+          </p>
+          <p>
+            HPP provides custom water-cooled oil cooler solutions designed to
+            meet specific application requirements. By using water as the
+            cooling medium, these heat exchangers transfer excess heat from oil
+            to water, helping maintain the required operating temperature.
+          </p>
+          <p>
+            Our solutions are suitable for applications where consistent
+            thermal management is essential, including hydraulic power packs,
+            industrial machinery, turbines, and transmission systems.
+          </p>
 
-            <h4 className="pt-4 text-xl font-bold text-[#0d1b3f]">
-              Technical Capabilities
-            </h4>
-            <p>
-              Our water cooled oil cooler range is engineered to handle a
-              wide spectrum of industrial cooling demands:
-            </p>
-            <ul className="space-y-2">
-              {technicalCapabilities.map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <Check size={18} className="mt-1 flex-shrink-0 text-[#f35a3b]" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            <p>
-              This broad range allows us to match cooling capacity
-              precisely to the specific thermal load of each application,
-              rather than forcing standardized sizing onto unique
-              industrial requirements — an approach that aligns closely
-              with German engineering expectations around precision and
-              application-specific design.
-            </p>
-
-            <h4 className="pt-4 text-xl font-bold text-[#0d1b3f]">
-              Applications Suited for German Industries
-            </h4>
-            <p>Our water cooled oil coolers are widely used across:</p>
-            <ul className="space-y-2">
-              {applications.map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <Check size={18} className="mt-1 flex-shrink-0 text-[#f35a3b]" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <h4 className="pt-4 text-xl font-bold text-[#0d1b3f]">
-              Built for Durability and Long-Term Performance
-            </h4>
-            <p>
-              Built for durability and long-lasting performance, our
-              water-cooled coolers are ideal for heavy-duty, continuous
-              industrial operations where consistent thermal control is
-              critical. Every unit undergoes rigorous pressure and leak
-              testing before dispatch as part of our ISO-certified quality
-              management process, helping minimize the risk of field
-              failures and unplanned downtime for German industrial
-              buyers.
-            </p>
-
-            <h4 className="pt-4 text-xl font-bold text-[#0d1b3f]">
-              Why German Buyers Choose an ISO Certified Manufacturer
-            </h4>
-            <p>
-              For German companies evaluating international manufacturing
-              partners, ISO certification offers a measurable quality
-              assurance framework — indicating standardized production
-              processes, documented traceability, and consistent testing
-              protocols. This is particularly important when sourcing
-              critical thermal management components that directly affect
-              machine reliability and safety. As an ISO Certified Water
-              Cooled Oil Cooler Manufacturer, HPP provides German buyers
-              with the documentation, testing reports, and quality
-              assurance needed to evaluate supplier reliability with
-              confidence.
-            </p>
-
-            <h4 className="pt-4 text-xl font-bold text-[#0d1b3f]">
-              Supporting German Industrial Supply Chains
-            </h4>
-            <p>
-              Our manufacturing facility is equipped to handle export
-              documentation, quality certification support, and
-              coordinated logistics to ensure smooth, predictable delivery
-              to Germany and across the EU. Whether you require a compact
-              water cooled oil cooler for a single hydraulic power pack or
-              a high-capacity heat exchanger for power plant-scale
-              operations, our engineering team works closely with clients
-              from initial specification through final delivery, ensuring
-              the solution matches exact operational and thermal
-              performance requirements before production begins.
-            </p>
-            <p>
-              As industrial supply chains continue to diversify globally,
-              HPP offers German businesses a reliable, ISO-certified
-              alternative sourcing partnership — combining engineering
-              precision, transparent communication, and consistent
-              product quality for demanding industrial cooling
-              applications.
-            </p>
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Technical Specifications of Water Cooled Oil Coolers
+          </h2>
+          <p>
+            HPP offers a range of{" "}
+            <Link
+              href="/products"
+              className="font-bold text-[#f35a3b] underline hover:text-[#0d1b3f]"
+            >
+              water-cooled oil coolers
+            </Link>{" "}
+            to support different industrial cooling requirements. Our
+            available technical specifications include:
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full max-w-2xl border-collapse text-left text-base">
+              <thead>
+                <tr className="bg-[#0d1b3f] text-white">
+                  <th className="px-4 py-3 font-bold">Technical Parameter</th>
+                  <th className="px-4 py-3 font-bold">Available Range</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["Flow Capacity", "3 to 700 litres"],
+                  ["Heat Rejection Capacity", "Up to 150,000 Kcal/h"],
+                  ["Available Diameter", "80 mm to 750 mm"],
+                  ["Available Length", "300 mm to 10,000 mm"],
+                ].map(([param, range]) => (
+                  <tr key={param} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-3 font-semibold text-[#0d1b3f]">{param}</td>
+                    <td className="px-4 py-3">{range}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
+          <p>
+            These specifications provide flexibility when selecting cooling
+            equipment for different industrial applications. Our team can help
+            identify a suitable configuration based on the required heat
+            rejection capacity, operating conditions, and installation
+            requirements.
+          </p>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Applications Across German Industries
+          </h2>
+          <p>
+            Water-cooled oil coolers play an important role in industrial
+            operations where effective heat management is necessary for
+            consistent machine performance.
+          </p>
+          <p>HPP cooling solutions are suitable for various applications, including:</p>
+          <ul className="list-disc space-y-2 pl-6">
+            {[
+              ["Hydraulic Power Packs:", "Help maintain stable hydraulic oil temperatures during continuous machine operation."],
+              ["Industrial Test Benches:", "Support temperature control during equipment testing and performance evaluation."],
+              ["Turbines and Power Plants:", "Provide oil cooling for equipment operating under demanding industrial conditions."],
+              ["Offline Cooling Systems:", "Help cool hydraulic oil independently without interrupting the main hydraulic circuit."],
+              ["Heavy Engineering Machinery:", "Support reliable operation by managing excess heat in industrial equipment."],
+              ["Transmission Systems:", "Help maintain suitable oil temperatures for efficient equipment operation."],
+            ].map(([label, text]) => (
+              <li key={label}>
+                <strong className="text-[#0d1b3f]">{label}</strong> {text}
+              </li>
+            ))}
+          </ul>
+          <p>
+            Our water-cooled oil coolers can be selected according to the
+            specific thermal and operational requirements of each application.
+          </p>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Quality, Durability and Reliable Performance
+          </h2>
+          <p>
+            Industrial cooling equipment must deliver consistent performance
+            under demanding operating conditions. HPP focuses on
+            quality-oriented manufacturing and product reliability to meet
+            different industrial requirements.
+          </p>
+          <p>
+            Our water-cooled oil coolers are designed for long-term industrial
+            use and effective heat transfer. Quality checks, including pressure
+            and leakage testing, help evaluate product performance and
+            reliability before dispatch.
+          </p>
+          <p>
+            As an ISO-certified company, HPP follows a quality-focused approach
+            to its products and processes. We aim to provide dependable cooling
+            solutions that help industrial customers manage equipment
+            temperatures and reduce the risk of overheating-related maintenance
+            issues.
+          </p>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Why Choose HPP as Your Water Cooled Oil Cooler Supplier in Germany?
+          </h2>
+          <p>
+            Selecting the right supplier is important when sourcing industrial
+            heat exchangers. German industrial buyers need products that meet
+            their technical requirements and offer dependable performance.
+          </p>
+          <p>
+            Here is why businesses can consider{" "}
+            <Link
+              href="/about-us"
+              className="font-bold text-[#f35a3b] underline hover:text-[#0d1b3f]"
+            >
+              Hydraulic and Pneumatic Products (HPP)
+            </Link>
+            :
+          </p>
+          <ul className="list-disc space-y-2 pl-6">
+            {[
+              ["Custom Cooling Solutions:", "Options based on specific industrial applications and cooling requirements."],
+              ["Wide Technical Range:", "Multiple diameter, length, and heat rejection capacity options."],
+              ["ISO-Certified Quality:", "A structured approach to quality management and product consistency."],
+              ["Industrial Applications:", "Solutions for hydraulic systems, turbines, power packs, and machinery."],
+              ["Technical Assistance:", "Support in identifying suitable cooling equipment for different applications."],
+              ["International Supply:", "Support for industrial customers looking for cooling equipment in Germany and other international markets."],
+            ].map(([label, text]) => (
+              <li key={label}>
+                <strong className="text-[#0d1b3f]">{label}</strong> {text}
+              </li>
+            ))}
+          </ul>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Contact HPP for Custom Water Cooled Oil Cooler Solutions
+          </h2>
+          <p>
+            Looking for a dependable{" "}
+            <Link
+              href="/contact-us"
+              className="font-bold text-[#f35a3b] underline hover:text-[#0d1b3f]"
+            >
+              Custom Water Cooled Hydraulic Oil Cooler Supplier in Germany
+            </Link>
+            ? Hydraulic and Pneumatic Products (HPP) offers industrial cooling
+            solutions designed around your equipment and application
+            requirements.
+          </p>
+          <p>
+            Whether you need a water-cooled oil cooler for a hydraulic power
+            pack, industrial test bench, turbine, or heavy-duty machinery, our
+            team can help you identify a suitable solution.
+          </p>
+          <p>
+            <Link
+              href="/contact-us"
+              className="font-bold text-[#f35a3b] underline hover:text-[#0d1b3f]"
+            >
+              Contact HPP today
+            </Link>{" "}
+            to discuss your technical requirements, explore available cooling
+            options, and request a quotation for your industrial oil cooling
+            application in Germany.
+          </p>
         </div>
       </div>
 

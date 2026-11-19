@@ -97,69 +97,6 @@ const modelSections = [
       "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-0608-F2 is one of the most demanding cooling models.",
     images: ["19.webp", "20.webp", "21.webp"],
   },
-  {
-    title: "HPP-H-1012,1P,3P&D12V&D24V",
-    description:
-      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-1012,1P,3P&D12V&D24V is one of the most demanding cooling models.",
-    images: ["22.webp", "23.webp", "24.webp"],
-  },
-  {
-    title: "HPP-H-1215-1P,3P,D12V & D24V",
-    description:
-      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-1215-1P,3P,D12V & D24V is one of the most demanding cooling models.",
-    images: ["25.webp", "26.webp", "27.webp"],
-  },
-   {
-    title: "HPP-H-1418-1P & 3P",
-    description:
-      "Hydraulic and pneumatic products are known for the most efficient D-cup cooling models. HPP-H-1418-1P & 3P & D24V is one of the most demanding cooling models.",
-    images: ["28.webp", "29.webp", "30.webp"],
-  },
-   {
-    title: "HPP-H-1428-1P & 3P",
-    description:
-      "If you are looking for a high-level capacity of oil cooler models then Hydraulic & Pneumatic Products have the best solution for you. Model number HPP-H-1428-1P & 3P is one of our high-range D cup coolers. This model can serve you the oil flow LPM for 30 to 200. Which is great for your advanced cooling purpose. The size of the fan is almost double that of the regular models. Its size is 14 (350) inches. DBA noise remains the same (75) with any voltage, current, and power sources. Generally, power sources are AC and DC. Voltage requirements are 230 with AC and 1 phase. Get this high-capacity drain line solution today at the most reasonable prices with us.",
-    images: ["31.webp", "32.webp", "33.webp"],
-  },
-   {
-    title: "HPP-H-1490-1P & 3P",
-    description: (
-      <>
-        We understand that different users have different requirements.
-        That this the reason we have many models to suit your cooling
-        purposes, as an{" "}
-        <Link
-          href="/contact-us"
-          className="font-semibold text-[#f35a3b] hover:underline"
-        >
-          ISO Certified Air Cooled Oil Cooler Manufacturer in Germany
-        </Link>
-        . HPP-H-1490-1P & 3P The model belongs to one of the
-        best-performing D cup cooling models. The oil Flow LPM of this
-        range is 30 to 260 with a large fan size of 14 (350) inches. The
-        noise DBA 60 remains the same with AC DC power source, variable
-        voltage, current, and 50 frequency. We use cast iron headers,
-        Nitrate, and Vitron seal to serve the best quality results for a
-        longer duration. Book your order today for model number
-        HPP-H-1490-1P & 3P and enjoy an uninterrupted performance of your
-        electronic components.
-      </>
-    ),
-    images: ["34.webp", "35.webp", "36.webp"],
-  },
-  {
-    title: "HPP-H-1680-1P & 3P",
-    description:
-      "Are you looking for a D-cup cooling solution with a larger fan size? Hydraulic & Pneumatic Products introduces the best model HPP-H-1680-1P & 3P for this purpose. The oil flow LPM is 30 to 280. The fan size of this model is 16 (400) inches. It performs so well with AC power supply and 1 & 3 phase. Current requirements are variable but the Noise DBA of 76 remains the same at each condition. You can buy them to use to cool any item. This model can perform efficiently at a temperature of 100-degree celsius or higher. The most impressive part of this device is no requirement for any coolant tank. Oil lubricants are enough to perform as electric insulators and cooling solutions.",
-    images: ["37.webp", "38.webp", "39.webp"],
-  },
-  {
-    title: "HPP-H-1890-1P & 3P",
-    description:
-      "Hydraulic & Pneumatic Products are leading manufacturers of ideal oil coolers. Our model number HPP-H-1890-1P & 3P is known for the best output and largest fan size. Its oil flow LPM is 30 to 280. The fan size of 18 (400) is the center of attraction of its overall features. This model number performs at a high voltage of 230 with an AC power source and a single phase. With 3 Phase voltage is required for 415 with an AC power supply. 79 Noise DBA remains the same in both conditions. Your internal combustion device will perform uninterruptedly with the use of this cooling device. So why are you waiting? Contact us and get this model delivered to you now.",
-    images: ["40.webp", "41.webp", "42.webp","43.webp","44.webp","45.webp"],
-  },
-  
 ];
 
 function ProductCard({ name, image }) {
@@ -275,7 +212,7 @@ export default function AirCooledOilCoolerPage() {
             <div className="mb-6 h-1 w-16 rounded-full bg-[#f35a3b]" />
 
             <p className="text-lg leading-8 text-gray-600">
-             HPP, an <Link href="/air-cooled-oil-cooler" className="font-semibold text-[#f35a3b] hover:underline">ISO Certified Air Cooled Oil Cooler Manufacturer in Germany</Link>, offers Air-Cooled Oil Coolers that are one of our most selling products. It is essential for maintaining the ideal temperature in hydraulic systems, extending the life of components, and reducing system downtime. Our coolers are built with high-efficiency finned tubes and electric or hydraulic-driven fans. They are easy to install and ideal for mobile equipment, compressors, and power units operating in high ambient temperature conditions. Designed for optimal heat dissipation and minimal energy consumption, our air coolers meet the cooling demands of various hydraulic circuits. 
+             HPP, an <Link href="/air-cooled-oil-cooler-manufacturer" className="font-semibold text-[#f35a3b] hover:underline">ISO Certified Air Cooled Oil Cooler Manufacturer in Germany</Link>, offers Air-Cooled Oil Coolers that are one of our most selling products. It is essential for maintaining the ideal temperature in hydraulic systems, extending the life of components, and reducing system downtime. Our coolers are built with high-efficiency finned tubes and electric or hydraulic-driven fans. They are easy to install and ideal for mobile equipment, compressors, and power units operating in high ambient temperature conditions. Designed for optimal heat dissipation and minimal energy consumption, our air coolers meet the cooling demands of various hydraulic circuits. 
 
               coolers meet the cooling demands of various hydraulic circuits.
             </p>
@@ -312,7 +249,160 @@ export default function AirCooledOilCoolerPage() {
         </div>
       ))}
 
-     
+      {/* Content */}
+      <div className="bg-white px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl space-y-6 text-lg leading-8 text-gray-600">
+          <p>
+            In industries where machines operate under high pressure and
+            continuous workloads, effective oil temperature control is
+            essential. Our air cooled oil coolers are suitable for different
+            industrial requirements, including hydraulic systems, gearboxes, and
+            other applications where consistent cooling performance is
+            important. We focus on quality, durability, and dependable cooling
+            solutions to meet the requirements of industrial customers in
+            Germany.
+          </p>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Air-Oil Coolers for Gearboxes
+          </h2>
+          <p>
+            Gearboxes generate heat during continuous operation due to friction
+            and mechanical movement. Excessive heat can affect lubricant
+            performance, increase component wear, and reduce equipment
+            efficiency.
+          </p>
+          <p>
+            HPP offers{" "}
+            <strong className="text-[#0d1b3f]">Air-Oil Coolers for Gearboxes</strong>{" "}
+            designed to help maintain suitable oil temperatures during
+            operation. These cooling solutions support effective heat
+            dissipation and help protect gearbox components from unnecessary
+            thermal stress.
+          </p>
+          <p>
+            Our solutions are suitable for industrial machinery and equipment
+            that require reliable temperature management. Selecting the right
+            cooler according to operating conditions and heat load can help
+            improve equipment reliability and support long-term performance.
+          </p>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Air-Oil Coolers for Hydraulic Systems
+          </h2>
+          <p>
+            Hydraulic systems are widely used in manufacturing plants,
+            construction equipment, industrial machinery, and material handling
+            applications. During operation, hydraulic oil absorbs heat, which
+            can affect system efficiency and component life if temperatures
+            become too high.
+          </p>
+          <p>
+            HPP provides{" "}
+            <strong className="text-[#0d1b3f]">
+              Air-Oil Coolers for Hydraulic Systems
+            </strong>{" "}
+            to help control oil temperatures and maintain consistent hydraulic
+            performance. These coolers use airflow to remove excess heat from
+            hydraulic oil, making them a practical solution for applications
+            where efficient oil cooling is required.
+          </p>
+          <p>
+            Proper oil temperature management can help reduce overheating
+            risks, maintain lubricant properties, and support the reliable
+            operation of hydraulic equipment.
+          </p>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Why Choose HPP for Air Cooled Oil Coolers in Germany?
+          </h2>
+          <p>
+            Choosing the right cooling equipment is important for maintaining
+            industrial productivity and reducing unexpected maintenance
+            requirements.{" "}
+            <Link
+              href="/about-us"
+              className="font-bold text-[#f35a3b] underline hover:text-[#0d1b3f]"
+            >
+              Hydraulic and Pneumatic Products (HPP)
+            </Link>{" "}
+            focuses on delivering dependable oil cooling solutions for
+            different industrial applications.
+          </p>
+          <p>Key reasons to consider HPP include:</p>
+          <ul className="list-disc space-y-2 pl-6">
+            {[
+              ["ISO-Certified Quality:", "A quality-focused approach to product performance and reliability."],
+              ["Industrial Applications:", "Cooling solutions for hydraulic systems, gearboxes, and industrial machinery."],
+              ["Efficient Heat Dissipation:", "Designed to remove excess heat from oil during machine operation."],
+              ["Durable Performance:", "Cooling equipment designed for demanding industrial working conditions."],
+              ["Application-Based Solutions:", "Product selection based on cooling requirements and operating conditions."],
+              ["Technical Support:", "Assistance in identifying suitable cooling solutions for specific industrial applications."],
+            ].map(([label, text]) => (
+              <li key={label}>
+                <strong className="text-[#0d1b3f]">{label}</strong> {text}
+              </li>
+            ))}
+          </ul>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Applications of Air Cooled Oil Coolers
+          </h2>
+          <p>
+            Air cooled oil coolers are used across several industries where oil
+            temperature control is necessary for reliable machine operation.
+          </p>
+          <p>Common applications include:</p>
+          <ul className="list-disc space-y-2 pl-6">
+            {[
+              "Hydraulic power packs and hydraulic systems",
+              "Industrial gearboxes and transmission systems",
+              "Construction and earthmoving equipment",
+              "Manufacturing and processing machinery",
+              "Material handling equipment",
+              "Industrial automation systems",
+              "Heavy-duty machinery and equipment",
+            ].map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          <p>
+            The correct oil cooler depends on factors such as oil flow rate,
+            operating temperature, ambient temperature, heat rejection
+            capacity, and available installation space.
+          </p>
+
+          <h2 className="pt-4 text-2xl font-bold text-[#0d1b3f] md:text-3xl">
+            Get Reliable Air Cooling Solutions from HPP
+          </h2>
+          <p>
+            Looking for an{" "}
+            <strong className="text-[#0d1b3f]">
+              ISO-certified air cooled oil cooler manufacturer in Germany
+            </strong>{" "}
+            for your industrial requirements? Hydraulic and Pneumatic Products
+            (HPP) offers dependable cooling solutions for hydraulic systems,
+            gearboxes, and industrial machinery.
+          </p>
+          <p>
+            Our focus is on helping businesses select suitable oil cooling
+            equipment according to their technical and operational
+            requirements. Whether you need Air-Oil Coolers for Gearboxes or
+            Air-Oil Coolers for Hydraulic Systems, our team can help you
+            identify the right solution.
+          </p>
+          <p>
+            <Link
+              href="/contact-us"
+              className="font-bold text-[#f35a3b] underline hover:text-[#0d1b3f]"
+            >
+              Contact Hydraulic and Pneumatic Products (HPP) today
+            </Link>{" "}
+            to discuss your application requirements and request product
+            details or a quotation for your next industrial project.
+          </p>
+        </div>
+      </div>
 
       {/* FAQs */}
       <div className="bg-[#f9fafb] px-6 py-16 md:py-20">
